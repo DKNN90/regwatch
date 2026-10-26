@@ -333,6 +333,12 @@
     else go("eu", "latest", null);
   }
 
+  window.addEventListener("hashchange", () => {
+    if (!state.feed) return;
+    const m = location.hash.match(/^#\/(eu|uk|us|global)\/(latest|tracker|ahead)(?:\/(.+))?$/);
+    if (m && (m[1] !== state.region || m[2] !== state.view || (m[3] || null) !== state.openId)) go(m[1], m[2], m[3] || null, !!m[3]);
+  });
+
   window.addEventListener("online", () => { $("#offline-banner").hidden = true; });
   window.addEventListener("offline", () => { const b = $("#offline-banner"); b.textContent = "Offline — showing the last saved update"; b.hidden = false; });
 
