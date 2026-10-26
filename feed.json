@@ -1,0 +1,2060 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-26T04:00:00Z",
+  "next_update": "2026-10-29",
+  "coverage_note": "Seed edition. Covers publications up to 26 October 2026. Updates run every Monday and Thursday.",
+  "regions": [
+    {
+      "id": "eu",
+      "name": "Europe",
+      "short": "EU",
+      "blurb": "EU legislators, the European Supervisory Authorities, AMLA and the ECB."
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "short": "UK",
+      "blurb": "HM Treasury, the FCA, the Bank of England / PRA and the PSR."
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "short": "US",
+      "blurb": "Congress, Treasury, FinCEN, OFAC, the banking agencies, the SEC and the CFTC."
+    },
+    {
+      "id": "global",
+      "name": "Global",
+      "short": "Global",
+      "blurb": "Standard setters: FATF, FSB, BIS, the Basel Committee and the Wolfsberg Group."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ec",
+      "name": "European Commission / Council / Parliament",
+      "region": "eu",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/",
+      "status": "checked"
+    },
+    {
+      "id": "eba",
+      "name": "European Banking Authority (EBA)",
+      "region": "eu",
+      "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+      "status": "checked"
+    },
+    {
+      "id": "esma",
+      "name": "European Securities and Markets Authority (ESMA)",
+      "region": "eu",
+      "url": "https://www.esma.europa.eu/press-news/esma-news",
+      "status": "checked"
+    },
+    {
+      "id": "amla",
+      "name": "Anti-Money Laundering Authority (AMLA)",
+      "region": "eu",
+      "url": "https://www.amla.europa.eu/",
+      "status": "checked"
+    },
+    {
+      "id": "ecb",
+      "name": "European Central Bank (ECB)",
+      "region": "eu",
+      "url": "https://www.ecb.europa.eu/press/pr/html/index.en.html",
+      "status": "checked"
+    },
+    {
+      "id": "hmt",
+      "name": "HM Treasury",
+      "region": "uk",
+      "url": "https://www.gov.uk/government/organisations/hm-treasury",
+      "status": "checked"
+    },
+    {
+      "id": "fca",
+      "name": "Financial Conduct Authority (FCA)",
+      "region": "uk",
+      "url": "https://www.fca.org.uk/news",
+      "status": "checked"
+    },
+    {
+      "id": "boe",
+      "name": "Bank of England / PRA",
+      "region": "uk",
+      "url": "https://www.bankofengland.co.uk/news",
+      "status": "checked"
+    },
+    {
+      "id": "psr",
+      "name": "Payment Systems Regulator (PSR)",
+      "region": "uk",
+      "url": "https://www.psr.org.uk/news-and-updates/",
+      "status": "checked"
+    },
+    {
+      "id": "congress",
+      "name": "US Congress",
+      "region": "us",
+      "url": "https://www.congress.gov/",
+      "status": "checked"
+    },
+    {
+      "id": "treasury",
+      "name": "US Treasury / OFAC",
+      "region": "us",
+      "url": "https://home.treasury.gov/news/press-releases",
+      "status": "checked"
+    },
+    {
+      "id": "fincen",
+      "name": "FinCEN",
+      "region": "us",
+      "url": "https://www.fincen.gov/news-room",
+      "status": "checked"
+    },
+    {
+      "id": "occ",
+      "name": "OCC",
+      "region": "us",
+      "url": "https://www.occ.gov/news-events/newsroom/",
+      "status": "checked"
+    },
+    {
+      "id": "fed",
+      "name": "Federal Reserve Board",
+      "region": "us",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+      "status": "checked"
+    },
+    {
+      "id": "fdic",
+      "name": "FDIC",
+      "region": "us",
+      "url": "https://www.fdic.gov/news/press-releases",
+      "status": "checked"
+    },
+    {
+      "id": "sec",
+      "name": "SEC",
+      "region": "us",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "status": "checked"
+    },
+    {
+      "id": "cftc",
+      "name": "CFTC",
+      "region": "us",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "status": "checked"
+    },
+    {
+      "id": "fatf",
+      "name": "Financial Action Task Force (FATF)",
+      "region": "global",
+      "url": "https://www.fatf-gafi.org/en/publications.html",
+      "status": "checked"
+    },
+    {
+      "id": "fsb",
+      "name": "Financial Stability Board (FSB)",
+      "region": "global",
+      "url": "https://www.fsb.org/press/",
+      "status": "checked"
+    },
+    {
+      "id": "bis",
+      "name": "Bank for International Settlements (BIS)",
+      "region": "global",
+      "url": "https://www.bis.org/press/index.htm",
+      "status": "checked"
+    },
+    {
+      "id": "bcbs",
+      "name": "Basel Committee on Banking Supervision",
+      "region": "global",
+      "url": "https://www.bis.org/bcbs/",
+      "status": "checked"
+    },
+    {
+      "id": "wolfsberg",
+      "name": "Wolfsberg Group",
+      "region": "global",
+      "url": "https://wolfsberg-group.org/news",
+      "status": "checked"
+    }
+  ],
+  "trackers": [
+    {
+      "id": "psd3-psr",
+      "region": "eu",
+      "name": "PSD3 & the Payment Services Regulation",
+      "short": "PSD3 / PSR",
+      "stage": "agreed",
+      "stage_label": "Agreed — awaiting formal adoption",
+      "summary": "Replaces PSD2 and the Second E-Money Directive. PSD3 (a directive, transposed nationally) covers authorisation and supervision; the PSR (a regulation, directly applicable) covers conduct of business, fraud prevention and open banking.",
+      "points": [
+        "Merges the payment institution and e-money institution regimes into one authorisation framework; existing licence holders will need to re-authorise.",
+        "Makes payee verification (matching the IBAN to the payee name) mandatory for credit transfers.",
+        "Extends PSP liability in certain impersonation-fraud cases and strengthens fraud-data sharing between PSPs.",
+        "Tightens rules on open-banking data access, including a list of prohibited obstacles that account providers may not put in front of AIS/PIS providers.",
+        "Requires banks to give payment institutions access to payment accounts on a non-discriminatory basis."
+      ],
+      "timeline": [
+        {
+          "date": "2023-06-28",
+          "label": "Commission proposal",
+          "done": true
+        },
+        {
+          "date": "2025-11-27",
+          "label": "Provisional political agreement (trilogue)",
+          "done": true
+        },
+        {
+          "date": "2026-04-23",
+          "label": "Council publishes final compromise texts",
+          "done": true
+        },
+        {
+          "date": "2026-05-05",
+          "label": "Parliament ECON committee approves the text",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Official Journal publication expected (H2 2026, no date confirmed)",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2028",
+          "label": "Most PSR rules apply ~21 months after entry into force; payee-verification rules ~27 months",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Formal Council adoption, Parliament second-reading vote, signature and Official Journal publication. As of early October 2026 the texts had not yet been published in the Official Journal.",
+      "authorities": [
+        "European Commission",
+        "Council of the EU",
+        "European Parliament",
+        "EBA (level-2 standards)"
+      ],
+      "links": [
+        {
+          "label": "Hogan Lovells — provisional agreement explained",
+          "url": "https://www.hoganlovells.com/en/publications/final-texts-for-psd3-and-psr-awaited-as-european-parliament-and-council-of-eu-announce-provisional",
+          "quality": "secondary"
+        },
+        {
+          "label": "A&O Shearman — final compromise texts published",
+          "url": "https://www.jdsupra.com/legalnews/final-compromise-texts-for-proposed-2841425/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Adyen — PSD3/PSR timeline (updated Oct 2026)",
+          "url": "https://www.adyen.com/knowledge-hub/psd3",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "aml-package",
+      "region": "eu",
+      "name": "EU AML package: AMLR, AMLD6 & AMLA",
+      "short": "AMLR / AMLA",
+      "stage": "adopted",
+      "stage_label": "Law — single rulebook applies July 2027",
+      "summary": "A directly applicable Anti-Money Laundering Regulation (the single rulebook), a sixth AML Directive covering supervisors and FIUs, and a new EU authority (AMLA, Frankfurt) that will directly supervise a small number of high-risk cross-border firms.",
+      "points": [
+        "AMLA became operational on 1 July 2025. It is now writing the level-2 technical standards that sit underneath the AMLR.",
+        "AMLA will directly supervise around 40 financial-sector entities. Eligibility: operating in at least six Member States with a 'high' residual risk profile.",
+        "On 1 October 2026 AMLA submitted three final draft RTS to the Commission: customer due diligence (Art. 28(1) AMLR); business relationships, occasional and linked transactions (Art. 19(9)); and group-wide requirements, including third-country branches and subsidiaries (Arts. 16(4) and 17(3)). A final RTS on home–host supervisory cooperation was published the same day.",
+        "On 7 October 2026 AMLA opened a consultation on draft RTS for a central EU AML/CFT database."
+      ],
+      "timeline": [
+        {
+          "date": "2024",
+          "label": "Package adopted and in force",
+          "done": true
+        },
+        {
+          "date": "2025-07-01",
+          "label": "AMLA operational",
+          "done": true
+        },
+        {
+          "date": "2026-10-01",
+          "label": "Final draft RTS on CDD, linked transactions and group-wide rules sent to Commission",
+          "done": true
+        },
+        {
+          "date": "2026-11-03",
+          "label": "AMLA public hearing on central-database RTS",
+          "done": false
+        },
+        {
+          "date": "2027-07-01",
+          "label": "AMLA begins first selection of directly supervised entities",
+          "done": false
+        },
+        {
+          "date": "2027-07-10",
+          "label": "AMLR (single rulebook) applies",
+          "done": false
+        },
+        {
+          "date": "2028",
+          "label": "AMLA direct supervision begins",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Commission adoption of the submitted RTS as delegated acts. Further AMLA consultations on the remaining mandates.",
+      "authorities": [
+        "AMLA",
+        "European Commission",
+        "National supervisors and FIUs"
+      ],
+      "links": [
+        {
+          "label": "AMLA — CDD RTS consultation page",
+          "url": "https://www.amla.europa.eu/policy/public-consultations/consultation-draft-rts-customer-due-diligence_en",
+          "quality": "primary"
+        },
+        {
+          "label": "AMLA — preparing for direct supervision",
+          "url": "https://www.amla.europa.eu/amla-takes-major-step-toward-harmonised-eu-supervision_en",
+          "quality": "primary"
+        },
+        {
+          "label": "Norton Rose Fulbright — AMLA finalises key standards (1 Oct 2026)",
+          "url": "https://www.regulationtomorrow.com/2026/10/amla-finalises-key-standards-for-the-private-sector/",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "mica",
+      "region": "eu",
+      "name": "MiCA — Markets in Crypto-Assets Regulation",
+      "short": "MiCA",
+      "stage": "in_force",
+      "stage_label": "In force — transitional periods over",
+      "summary": "The EU's authorisation and conduct regime for crypto-asset service providers (CASPs) and for issuers of e-money tokens (EMTs) and asset-referenced tokens (ARTs).",
+      "points": [
+        "National grandfathering for unauthorised CASPs has ended. ESMA has told firms without MiCA authorisation to put wind-down plans into effect.",
+        "On 14 October 2026 the EBA classified USDC (issued by Circle Internet Financial Europe SAS) as the first 'significant' EMT. Significance brings direct EBA supervision and stricter requirements. At that point 45 EMTs had been notified in the EU.",
+        "Supervision of CASPs may move to ESMA. See the separate Market Integration & Supervision Package tracker."
+      ],
+      "timeline": [
+        {
+          "date": "2024-06-30",
+          "label": "Stablecoin (EMT/ART) rules apply",
+          "done": true
+        },
+        {
+          "date": "2024-12-30",
+          "label": "Full application, including CASPs",
+          "done": true
+        },
+        {
+          "date": "2026-07-01",
+          "label": "Last national transitional periods end",
+          "done": true
+        },
+        {
+          "date": "2026-10-14",
+          "label": "EBA classifies USDC as a significant EMT",
+          "done": true
+        }
+      ],
+      "next": "Commission review of MiCA under Article 140, and the outcome of the MISP negotiations on ESMA supervision.",
+      "authorities": [
+        "ESMA",
+        "EBA",
+        "National competent authorities"
+      ],
+      "links": [
+        {
+          "label": "EBA — press releases (USDC classification, 14 Oct 2026)",
+          "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+          "quality": "primary"
+        },
+        {
+          "label": "Latham & Watkins — MiCA requirements tracker",
+          "url": "https://www.lw.com/en/markets-in-crypto-assets-regulation-tracker/mica-requirements-casps",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "misp",
+      "region": "eu",
+      "name": "Market Integration & Supervision Package (ESMA supervision)",
+      "short": "MISP",
+      "stage": "proposal",
+      "stage_label": "Proposal — co-legislators setting positions",
+      "summary": "A Commission legislative package (4 December 2025) to deepen capital-markets integration. It would give ESMA direct supervision of certain market infrastructure and crypto firms.",
+      "points": [
+        "The Commission proposed that ESMA directly supervise all MiCA-authorised CASPs, as well as significant CCPs, CSDs and trading venues.",
+        "The Council's position, agreed at ECOFIN on 9 October 2026, limits ESMA's CASP supervision to the most significant CASPs and supports a two-year transition for ESMA to take on new tasks.",
+        "A draft compromise in the European Parliament takes a similar 'significant CASPs only' approach. It adds an option for other CASPs to choose direct ESMA supervision."
+      ],
+      "timeline": [
+        {
+          "date": "2025-12-04",
+          "label": "Commission proposal (COM(2025) 943)",
+          "done": true
+        },
+        {
+          "date": "2026-06-11",
+          "label": "ECON draft reports published",
+          "done": true
+        },
+        {
+          "date": "2026-10-09",
+          "label": "Council agrees key elements of its negotiating position",
+          "done": true
+        },
+        {
+          "date": "2027",
+          "label": "Trilogue negotiations expected",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "The Parliament adopts its position; trilogues follow.",
+      "authorities": [
+        "European Commission",
+        "Council of the EU",
+        "European Parliament",
+        "ESMA"
+      ],
+      "links": [
+        {
+          "label": "Norton Rose Fulbright — Council position on MISP (9 Oct 2026)",
+          "url": "https://www.regulationtomorrow.com/2026/10/council-adopts-key-elements-of-negotiating-position-on-misp/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Norton Rose Fulbright — Parliament progresses MISP",
+          "url": "https://www.regulationtomorrow.com/2026/10/european-parliament-progresses-negotiations-on-misp-package/",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "digital-euro",
+      "region": "eu",
+      "name": "Digital euro regulation",
+      "short": "Digital euro",
+      "stage": "consultation",
+      "stage_label": "In trilogue",
+      "summary": "The legal framework for a retail central bank digital currency issued by the ECB, usable online and offline and distributed by PSPs. It is part of the 'single currency package' alongside a regulation on the legal tender of cash.",
+      "points": [
+        "The Parliament's ECON committee approved the draft regulation on 23 June 2026 (43–14, one abstention).",
+        "On 9 July 2026 the Parliament plenary approved a mandate to negotiate with the Council (416–169, 22 abstentions).",
+        "Under the Parliament text, PSPs including banks, e-money issuers and regulated crypto-asset providers could distribute the digital euro. The digital euro would not bear interest.",
+        "The institutions aim to finish the legislative process by the end of 2026. The ECB has referred to a pilot in 2027, with possible first issuance by 2029."
+      ],
+      "timeline": [
+        {
+          "date": "2023-06",
+          "label": "Commission proposal",
+          "done": true
+        },
+        {
+          "date": "2026-06-23",
+          "label": "ECON committee approval",
+          "done": true
+        },
+        {
+          "date": "2026-07-09",
+          "label": "Parliament plenary negotiating mandate",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Target to conclude legislative process",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Trilogue agreement between the Parliament, Council and Commission.",
+      "authorities": [
+        "European Parliament",
+        "Council of the EU",
+        "European Commission",
+        "ECB"
+      ],
+      "links": [
+        {
+          "label": "Banca d'Italia — Parliament opens negotiations (9 Jul 2026)",
+          "url": "https://www.bancaditalia.it/media/notizia/the-european-parliament-decided-to-open-negotiations-on-the-digital-euro-regulation/",
+          "quality": "primary"
+        },
+        {
+          "label": "The Paypers — ECON approval",
+          "url": "https://thepaypers.com/regulations/news/digital-euro-clears-key-eu-parliamentary-hurdle",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "uk-crypto",
+      "region": "uk",
+      "name": "UK cryptoasset & stablecoin regime (FCA)",
+      "short": "UK crypto regime",
+      "stage": "adopted",
+      "stage_label": "Rules final — regime starts 25 Oct 2027",
+      "summary": "Brings cryptoasset activities, including the issuance of UK qualifying stablecoins, inside FSMA authorisation for the first time. The legal basis is the FSMA 2000 (Cryptoassets) Regulations 2026 (SI 2026/102).",
+      "points": [
+        "On 30 June 2026 the FCA published five final policy statements: PS26/9 (admissions, disclosures and market abuse), PS26/10 (stablecoin issuance, backing assets and redemption), PS26/11 (trading platforms, intermediaries, lending, staking and custody, with CASS 17), PS26/12 (prudential) and PS26/13 (how the wider Handbook, including the Consumer Duty, applies).",
+        "Stablecoin issuers may not pay holders interest or income generated from the backing-asset pool.",
+        "The authorisation gateway for firms with existing UK crypto business opened on 30 September 2026 and closes on 28 February 2027.",
+        "Until the regime starts, the FCA's hold over crypto firms still comes from MLR registration and the financial promotions rules."
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "label": "Cryptoassets Regulations made (SI 2026/102)",
+          "done": true
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Final rules: PS26/9 to PS26/13",
+          "done": true
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Authorisation gateway opens",
+          "done": true
+        },
+        {
+          "date": "2026-10-21",
+          "label": "DeFi guidance (GC26/7) and perimeter guidance (CP26/36) consultations open",
+          "done": true
+        },
+        {
+          "date": "2026-11-18",
+          "label": "GC26/7 and CP26/36 consultations close",
+          "done": false
+        },
+        {
+          "date": "2027-01",
+          "label": "Final DeFi guidance expected",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2027-02-28",
+          "label": "Gateway window for existing firms closes",
+          "done": false
+        },
+        {
+          "date": "2027-10-25",
+          "label": "Regime in force",
+          "done": false
+        }
+      ],
+      "next": "The guidance consultations close, final guidance follows in January 2027, and the FCA processes applications.",
+      "authorities": [
+        "HM Treasury",
+        "FCA"
+      ],
+      "links": [
+        {
+          "label": "FCA — overview of the cryptoasset regime policy statements",
+          "url": "https://www.fca.org.uk/publications/policy-statements/cryptoasset-regime",
+          "quality": "primary"
+        },
+        {
+          "label": "FCA — PS26/10 Stablecoin issuance (PDF)",
+          "url": "https://www.fca.org.uk/publication/policy/ps26-10.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "FCA — CP26/36 Cryptoasset perimeter guidance",
+          "url": "https://www.fca.org.uk/publications/consultation-papers/cp26-36-cryptoasset-perimeter-guidance",
+          "quality": "primary"
+        },
+        {
+          "label": "Freshfields — the five policy statements",
+          "url": "https://www.freshfields.com/en/our-thinking/briefings/2026/07/set-in-stone-five-landmark-crypto-policy-statements",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "uk-systemic-stablecoins",
+      "region": "uk",
+      "name": "Systemic sterling stablecoins (Bank of England)",
+      "short": "Systemic stablecoins",
+      "stage": "consultation",
+      "stage_label": "Policy set — Code of Practice due end-2026",
+      "summary": "A Bank of England regime for sterling stablecoins that HM Treasury recognises as systemic. These issuers would be regulated jointly by the Bank and the FCA. The regime binds no issuer until a recognition is made.",
+      "points": [
+        "On 22 June 2026 the Bank published its policy statement and a draft Code of Practice, responding to its November 2025 consultation.",
+        "The proposed per-holder limits (£20,000 for individuals, £10m for businesses) were dropped. In their place is a temporary issuance guardrail of £40bn per systemic stablecoin.",
+        "Backing assets: up to 70% in short-term UK government debt and at least 30% in unremunerated Bank of England deposits. The November 2025 consultation had proposed 60/40.",
+        "Paying interest to coinholders is prohibited. The Bank intends to offer a liquidity facility for systemic issuers, lending against gilt collateral in exceptional scenarios.",
+        "Comments on the draft Code closed on 22 September 2026. Comments on the joint Bank/FCA approach document closed on 30 September 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2025-11",
+          "label": "Bank consultation paper",
+          "done": true
+        },
+        {
+          "date": "2026-06-22",
+          "label": "Policy statement and draft Code of Practice",
+          "done": true
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Consultations close",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Final Code of Practice expected",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2027",
+          "label": "Supporting materials, supervisory policy and liquidity-facility design consulted on",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "The Bank finalises the Code of Practice by the end of 2026.",
+      "authorities": [
+        "Bank of England",
+        "FCA",
+        "HM Treasury"
+      ],
+      "links": [
+        {
+          "label": "Bank of England & FCA — joint approach to systemic stablecoin issuers",
+          "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
+          "quality": "primary"
+        },
+        {
+          "label": "Addleshaw Goddard — policy statement and draft Code explained",
+          "url": "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/financial-regulation/sterling-denominated-systemic-stablecoins-bank-englands-policy-statement-draft-code-practice/",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "uk-payments-reform",
+      "region": "uk",
+      "name": "PSR consolidation into the FCA & payments reform",
+      "short": "PSR → FCA",
+      "stage": "consultation",
+      "stage_label": "Bill before Parliament",
+      "summary": "The government is abolishing the Payment Systems Regulator and moving its functions into the FCA. In parallel, it is consulting on bringing the Payment Services Regulations 2017 and E-Money Regulations 2011 into the FSMA framework.",
+      "points": [
+        "On 21 April 2026 HM Treasury confirmed that the PSR's objectives and powers, including the designation regime and powers under the Interchange Fee Regulation, will transfer to the FCA in substance.",
+        "The transfer needs primary legislation. It is in the Financial Services and Markets Bill 2026, which is before Parliament.",
+        "A separate HM Treasury consultation, 'Modernising Payment Services Regulation', closed on 6 October 2026. It proposes moving detailed rules out of the PSRs/EMRs into FCA rule-making and asks how tokenised and agentic payments should be treated."
+      ],
+      "timeline": [
+        {
+          "date": "2025-09",
+          "label": "HMT consultation on streamlining payments regulation",
+          "done": true
+        },
+        {
+          "date": "2026-04-21",
+          "label": "Government response confirms consolidation",
+          "done": true
+        },
+        {
+          "date": "2026-05",
+          "label": "Financial Services and Markets Bill 2026 introduced",
+          "done": true,
+          "approx": true
+        },
+        {
+          "date": "2026-10-06",
+          "label": "Modernising Payment Services consultation closes",
+          "done": true
+        }
+      ],
+      "next": "The Bill continues through Parliament, and HM Treasury responds to the modernisation consultation.",
+      "authorities": [
+        "HM Treasury",
+        "FCA",
+        "PSR"
+      ],
+      "links": [
+        {
+          "label": "GOV.UK — consultation response: streamlined payments regulation",
+          "url": "https://www.gov.uk/government/consultations/a-streamlined-approach-to-payment-systems-regulation-consultation/outcome/a-streamlined-approach-to-payment-systems-regulation-consultation-response",
+          "quality": "primary"
+        },
+        {
+          "label": "GOV.UK — Modernising Payment Services Regulation consultation",
+          "url": "https://www.gov.uk/government/consultations/modernising-payment-services-regulation/modernising-payment-services-regulation-consultation",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "uk-mlrs",
+      "region": "uk",
+      "name": "Money Laundering Regulations amendments 2026",
+      "short": "MLR 2026 changes",
+      "stage": "in_force",
+      "stage_label": "Mostly in force since 30 Jun 2026",
+      "summary": "The Money Laundering and Terrorist Financing (Amendment) Regulations 2026 (SI 2026/621) make targeted changes to the MLRs 2017. They follow HM Treasury's consultation on improving the effectiveness of the MLRs.",
+      "points": [
+        "The mandatory enhanced due diligence (EDD) trigger for high-risk third countries now refers to the FATF 'call for action' list only, not the 'increased monitoring' list. HM Treasury guidance says EDD must still be applied wherever a high risk is identified.",
+        "EDD for complex transactions now applies only to 'unusually complex or unusually large' transactions.",
+        "There are new requirements for pooled client accounts, and monetary thresholds are converted from euros to sterling.",
+        "Trust Registration Service changes: non-UK trusts holding UK land acquired before 6 October 2020 come into scope, and a de minimis exemption is added. Selling 'off-the-shelf' companies becomes a TCSP activity.",
+        "Some cryptoasset-related provisions start later, in 2027."
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-25",
+          "label": "Draft SI laid before Parliament",
+          "done": true
+        },
+        {
+          "date": "2026-06-09",
+          "label": "SI 2026/621 made",
+          "done": true
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Most provisions in force",
+          "done": true
+        },
+        {
+          "date": "2027-02",
+          "label": "Certain crypto provisions start",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Remaining provisions commence in 2027. Making the FCA the single professional-services AML supervisor is a separate reform.",
+      "authorities": [
+        "HM Treasury",
+        "FCA",
+        "Professional body supervisors"
+      ],
+      "links": [
+        {
+          "label": "legislation.gov.uk — SI 2026/621",
+          "url": "https://www.legislation.gov.uk/uksi/2026/621",
+          "quality": "primary"
+        },
+        {
+          "label": "STEP — amended MLRs in force 30 June",
+          "url": "https://www.step.org/industry-news/updated-uk-money-laundering-regulations-come-effect-30-june",
+          "quality": "secondary"
+        },
+        {
+          "label": "TLT — AML and crypto changes in the 2026 Regulations",
+          "url": "https://www.tlt.com/insights-and-events/insight/uk-government-strengthens-aml-and-crypto-controls-through-the-money-laundering-and-terrorist-financing-amendment-regulations-2026",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "genius",
+      "region": "us",
+      "name": "GENIUS Act implementation (payment stablecoins)",
+      "short": "GENIUS Act",
+      "stage": "rulemaking",
+      "stage_label": "Rules partly final — Act effective 18 Jan 2027",
+      "summary": "The GENIUS Act (enacted 18 July 2025) creates a federal framework for payment stablecoins. In general, only permitted payment stablecoin issuers (PPSIs) may issue in the US, and digital asset service providers may only offer stablecoins from permitted or qualifying foreign issuers.",
+      "points": [
+        "The Act takes effect on the earlier of 18 January 2027 or 120 days after final implementing regulations. Regulators missed the statutory 18 July 2026 deadline for final rules.",
+        "On 21 October 2026 the OCC issued the first federal banking-agency final rule (new 12 CFR Part 15), effective 18 January 2027. It covers activities, reserves, redemption, risk management, custody, licensing and capital. Its BSA/AML and sanctions provisions are left to a separate rulemaking with Treasury.",
+        "On 8 April 2026 FinCEN and OFAC jointly proposed AML/CFT and sanctions programme rules for PPSIs. These include technical capability to block, freeze and reject transactions, and make stablecoin transfers subject to the Travel Rule. A separate customer identification programme (CIP) proposal followed in June 2026.",
+        "On 17 August 2026 Treasury proposed rules on issuance, offer and sale under Section 3, including a pathway for foreign issuers. Earlier, on 3 April 2026, it proposed principles for when a state regime is 'substantially similar'.",
+        "The Federal Reserve proposed its rules on 24 September 2026, and the FDIC published proposals in spring 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2025-07-18",
+          "label": "GENIUS Act enacted",
+          "done": true
+        },
+        {
+          "date": "2026-02-25",
+          "label": "OCC proposed rule",
+          "done": true
+        },
+        {
+          "date": "2026-04-08",
+          "label": "FinCEN/OFAC AML & sanctions proposal",
+          "done": true
+        },
+        {
+          "date": "2026-08-17",
+          "label": "Treasury Section 3 proposal (issuance, offer, sale)",
+          "done": true
+        },
+        {
+          "date": "2026-09-24",
+          "label": "Federal Reserve proposals",
+          "done": true
+        },
+        {
+          "date": "2026-10-21",
+          "label": "OCC final rule",
+          "done": true
+        },
+        {
+          "date": "2027-01-18",
+          "label": "Act and OCC rule take effect",
+          "done": false
+        }
+      ],
+      "next": "Final rules from FinCEN/OFAC, Treasury, the FDIC and the Fed. Treasury's AML proposal envisages final rules taking effect 12 months after issuance.",
+      "authorities": [
+        "Treasury",
+        "OCC",
+        "Federal Reserve",
+        "FDIC",
+        "NCUA",
+        "FinCEN",
+        "OFAC",
+        "State regulators"
+      ],
+      "links": [
+        {
+          "label": "OCC Bulletin 2026-50 — GENIUS Act final rule",
+          "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+          "quality": "primary"
+        },
+        {
+          "label": "Federal Register — FinCEN/OFAC PPSI AML & sanctions proposal",
+          "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism",
+          "quality": "primary"
+        },
+        {
+          "label": "Federal Register — Treasury Section 3 proposal",
+          "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16796/genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — CIP proposal for PPSIs",
+          "url": "https://www.fincen.gov/news/news-releases/fincen-agencies-propose-rule-implement-genius-act-customer-identification",
+          "quality": "primary"
+        },
+        {
+          "label": "Sheppard Mullin — OCC final rule highlights",
+          "url": "https://www.sheppard.com/insights/blogs/occ-finalizes-genius-act-rules-for-payment-stablecoin-issuers",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "clarity",
+      "region": "us",
+      "name": "CLARITY Act (digital asset market structure)",
+      "short": "CLARITY Act",
+      "stage": "stalled",
+      "stage_label": "Stalled in the Senate",
+      "summary": "A bill to split oversight of digital asset markets between the SEC (digital securities) and the CFTC (digital commodities and their spot markets and intermediaries).",
+      "points": [
+        "The House passed the bill on 17 July 2025 (294–134). Senate Banking advanced its version on 14 May 2026 (15–9).",
+        "On 15 September 2026 a Senate cloture vote on the motion to proceed failed 49–50, short of the 60 needed. The vote was procedural, not on the bill's substance.",
+        "Reported sticking points were ethics rules on officials' digital asset holdings and whether stablecoin rewards or yield should be allowed.",
+        "A motion to reconsider was entered, so the bill is not formally dead. Without a statute, the SEC and CFTC are proceeding with rulemaking under their existing authority."
+      ],
+      "timeline": [
+        {
+          "date": "2025-07-17",
+          "label": "Passed House",
+          "done": true
+        },
+        {
+          "date": "2026-05-14",
+          "label": "Senate Banking Committee markup",
+          "done": true
+        },
+        {
+          "date": "2026-09-15",
+          "label": "Senate cloture vote fails 49–50",
+          "done": true
+        }
+      ],
+      "next": "Any further Senate action would have to happen before the 119th Congress ends in January 2027. Otherwise, legislation would need to be reintroduced.",
+      "authorities": [
+        "US Congress",
+        "SEC",
+        "CFTC"
+      ],
+      "links": [
+        {
+          "label": "Congress.gov — H.R.3633 bill record",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+          "quality": "primary"
+        },
+        {
+          "label": "DLA Piper — Senate fails to advance the CLARITY Act",
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "quality": "secondary"
+        },
+        {
+          "label": "Orrick — what's next for digital asset regulation",
+          "url": "https://www.orrick.com/en/Insights/2026/10/The-CLARITY-Act-Stalls-in-the-Senate-Whats-Next-for-Digital-Asset-Regulation",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "sec-crypto",
+      "region": "us",
+      "name": "SEC crypto rulemaking (Regulation Crypto Assets)",
+      "short": "Reg Crypto Assets",
+      "stage": "consultation",
+      "stage_label": "Proposed — comments closed 20 Oct 2026",
+      "summary": "The SEC's first crypto-specific securities offering framework. It builds on the March 2026 SEC–CFTC interpretation, which sets out a taxonomy of digital commodities, digital collectibles and digital tools.",
+      "points": [
+        "Two exemptions from Securities Act registration for 'covered investment contracts': a startup exemption (up to $5m over four years) and a fundraising exemption (up to $75m per 12 months).",
+        "A conditional safe harbour for when a crypto asset is no longer subject to an investment contract, once the issuer's essential managerial efforts are complete.",
+        "Pre-empts certain state registration requirements, and adds disclosure and ongoing-reporting obligations modelled on Regulation A.",
+        "Covers offerings only. Trading, custody and broker-dealer rules are separate items on the SEC's agenda. The SEC also issued an 'innovation exemption' order on 17 September 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2026-03",
+          "label": "SEC–CFTC interpretation on crypto asset taxonomy",
+          "done": true
+        },
+        {
+          "date": "2026-08-18",
+          "label": "Regulation Crypto Assets proposed",
+          "done": true
+        },
+        {
+          "date": "2026-09-17",
+          "label": "Innovation exemption order",
+          "done": true
+        },
+        {
+          "date": "2026-10-20",
+          "label": "Comment period closes",
+          "done": true
+        }
+      ],
+      "next": "The SEC reviews comments ahead of a final rule, and proposes the trading, custody and broker-dealer rules.",
+      "authorities": [
+        "SEC"
+      ],
+      "links": [
+        {
+          "label": "SEC — Commissioner Uyeda statement on Regulation Crypto Assets",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-regulation-crypto-assets-081826",
+          "quality": "primary"
+        },
+        {
+          "label": "Congressional Research Service — LSB11480",
+          "url": "https://www.congress.gov/crs-product/LSB11480",
+          "quality": "primary"
+        },
+        {
+          "label": "White & Case — proposal explained",
+          "url": "https://www.whitecase.com/insight-alert/sec-proposes-regulation-crypto-assets-rulemaking",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "cftc-crypto",
+      "region": "us",
+      "name": "CFTC crypto markets (Regulation CTX & CAM)",
+      "short": "CFTC CTX / CAM",
+      "stage": "consultation",
+      "stage_label": "Advance notice (ANPRM)",
+      "summary": "The CFTC's first round of crypto market rules. It sets out an optional federal pathway for venues offering leveraged, margined or financed retail crypto transactions (CTXs).",
+      "points": [
+        "Regulation CTX would define which retail crypto transactions fall under the CFTC's existing authority. Regulation CAM would create a 'crypto asset market', a new subcategory of designated contract market for venues offering only CTXs.",
+        "Ordinary spot crypto trading without leverage or financing would remain mainly state-regulated, subject to the CFTC's anti-fraud and anti-manipulation authority.",
+        "An ANPRM is a request for views before rule text is proposed."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "label": "Sent to White House (OIRA) review",
+          "done": true
+        },
+        {
+          "date": "2026-10-05",
+          "label": "ANPRM announced",
+          "done": true
+        }
+      ],
+      "next": "Comment period, followed by a proposed rule.",
+      "authorities": [
+        "CFTC"
+      ],
+      "links": [
+        {
+          "label": "CFTC — Chairman Selig remarks (5 Oct 2026)",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/opaselig12",
+          "quality": "primary"
+        },
+        {
+          "label": "Sidley — CFTC seeks comment on retail crypto framework",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2026/10/cftc-seeks-comment-on-proposed-federal-framework-for-retail-crypto-transactions",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "bsa-reform",
+      "region": "us",
+      "name": "BSA AML/CFT programme modernisation",
+      "short": "AML programme rule",
+      "stage": "consultation",
+      "stage_label": "Proposed — final rule expected 2027",
+      "summary": "A FinCEN proposal, issued with the FDIC, OCC and NCUA, to overhaul AML/CFT programme requirements for the BSA-covered financial institutions. Programmes would be judged on effectiveness rather than documented process alone.",
+      "points": [
+        "Proposed on 7 April 2026, fully replacing FinCEN's July 2024 proposal. Comments closed on 9 June 2026.",
+        "The proposal envisages a 12-month implementation period after the final rule.",
+        "Related: the AML rule for investment advisers is delayed to 1 January 2028, and FinCEN intends to revisit it. On 11 August 2026 FinCEN finalised a narrower Corporate Transparency Act beneficial-ownership reporting rule. This does not remove banks' CDD obligations.",
+        "On 12 June 2026 FinCEN updated its Section 314(b) fact sheet to state that information sharing on fraud is covered by the safe harbour."
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-07",
+          "label": "Programme modernisation proposal",
+          "done": true
+        },
+        {
+          "date": "2026-06-09",
+          "label": "Comment period closes",
+          "done": true
+        },
+        {
+          "date": "2027",
+          "label": "Final rule expected",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2028-01-01",
+          "label": "Investment adviser AML rule effective (delayed)",
+          "done": false
+        }
+      ],
+      "next": "Final rule.",
+      "authorities": [
+        "FinCEN",
+        "OCC",
+        "FDIC",
+        "NCUA"
+      ],
+      "links": [
+        {
+          "label": "Federal Register — investment adviser rule delay",
+          "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24184/delaying-the-effective-date-of-the-anti-money-launderingcountering-the-financing-of-terrorism",
+          "quality": "primary"
+        },
+        {
+          "label": "BDO — 2026 US AML/CFT developments tracker",
+          "url": "https://www.bdo.com/insights/advisory/2026-u-s-aml-cft-regulatory-developments-tracker",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "fatf",
+      "region": "global",
+      "name": "FATF standards, plenaries & lists",
+      "short": "FATF",
+      "stage": "in_force",
+      "stage_label": "Ongoing — October plenary this week",
+      "summary": "FATF sets the 40 Recommendations and publishes its 'black' (call for action) and 'grey' (increased monitoring) lists after each plenary (February, June, October). Country mutual evaluation reports (MERs) are filed under the relevant region in this app.",
+      "points": [
+        "The October 2026 plenary (28–30 October, Paris) is the first under the UK presidency of Giles Thomson. Outcomes will be announced on 30 October.",
+        "June 2026 plenary: Iraq and Bosnia and Herzegovina were added to the grey list, and Algeria and Namibia were removed. That left 22 jurisdictions under increased monitoring. The call-for-action list is unchanged: Iran, DPRK and Myanmar.",
+        "June 2026 also saw an update to Recommendation 6 to protect humanitarian assistance, and a consultation on guidance for cross-border payment transparency under Recommendation 16."
+      ],
+      "timeline": [
+        {
+          "date": "2026-02",
+          "label": "February plenary: Kuwait and Papua New Guinea grey-listed",
+          "done": true
+        },
+        {
+          "date": "2026-06",
+          "label": "June plenary: grey-list changes; Canada and Türkiye MERs adopted",
+          "done": true
+        },
+        {
+          "date": "2026-10-30",
+          "label": "October plenary outcomes published",
+          "done": false
+        }
+      ],
+      "next": "Plenary outcomes on 30 October 2026: list changes and adopted reports.",
+      "authorities": [
+        "FATF"
+      ],
+      "links": [
+        {
+          "label": "FATF — FATF Week, October 2026",
+          "url": "https://www.fatf-gafi.org/en/news/fatf-week-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — black and grey lists",
+          "url": "https://www.fatf-gafi.org/en/countries/black-and-grey-lists.html",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "fsb-stablecoins",
+      "region": "global",
+      "name": "FSB global stablecoin work",
+      "short": "FSB stablecoins",
+      "stage": "in_force",
+      "stage_label": "Monitoring & recommendations",
+      "summary": "The FSB coordinates G20 work on crypto-assets and 'global stablecoin' arrangements, building on its high-level recommendations first issued in October 2020.",
+      "points": [
+        "On 12 October 2026 the FSB sent the G20 a note on cross-border vulnerabilities and financial-stability monitoring of global stablecoin arrangements. It puts the market at about $300bn, roughly 99% pegged to the US dollar.",
+        "The note says global stablecoins and national frameworks have not been tested in severe stress or insolvency. It identifies run spillovers to traditional markets and redemption concentration in multi-issuer arrangements as risks.",
+        "In a letter dated 8 October 2026, FSB Chair Andrew Bailey said cross-border oversight and crisis-management arrangements for stablecoins remain immature or not yet developed. The G20 finance ministers and central bank governors met on 15 October.",
+        "The FSB also finalised practices for responsible use of AI in finance."
+      ],
+      "timeline": [
+        {
+          "date": "2020-10",
+          "label": "High-level recommendations on global stablecoins",
+          "done": true
+        },
+        {
+          "date": "2026-10-12",
+          "label": "Note and Chair's letter to the G20",
+          "done": true
+        },
+        {
+          "date": "2026-10-15",
+          "label": "G20 finance ministers and central bank governors meeting",
+          "done": true
+        }
+      ],
+      "next": "Continued monitoring and cross-border cooperation work.",
+      "authorities": [
+        "FSB",
+        "G20"
+      ],
+      "links": [
+        {
+          "label": "FSB — crypto-assets and global stablecoins",
+          "url": "https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/crypto-assets-and-global-stablecoins/",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "bcbs-crypto",
+      "region": "global",
+      "name": "Basel cryptoasset prudential standard (SCO60)",
+      "short": "Basel SCO60",
+      "stage": "in_force",
+      "stage_label": "In effect since 1 Jan 2026 — under targeted review",
+      "summary": "The Basel Committee's global standard for banks' capital, liquidity and disclosure treatment of cryptoasset exposures, including tokenised assets and stablecoins. It is not self-executing: each jurisdiction implements it.",
+      "points": [
+        "The implementation date was 1 January 2026, alongside a Pillar 3 disclosure framework.",
+        "In November 2025 the Committee agreed to expedite a targeted review of elements of the standard. In February and May 2026 it noted progress and said an update would come later in 2026.",
+        "In the UK, the PRA is expected to consult on implementation in Q4 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2022-12-16",
+          "label": "Final standard published",
+          "done": true
+        },
+        {
+          "date": "2026-01-01",
+          "label": "Implementation date",
+          "done": true
+        },
+        {
+          "date": "2026-05-20",
+          "label": "Committee notes review progress",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Update on targeted review expected",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Outcome of the targeted review.",
+      "authorities": [
+        "Basel Committee (BIS)",
+        "National prudential regulators"
+      ],
+      "links": [
+        {
+          "label": "BIS — Basel Committee meeting, 20 May 2026",
+          "url": "https://bis.org/press/p260520.htm",
+          "quality": "primary"
+        },
+        {
+          "label": "BIS — Basel Committee meeting, 25 Feb 2026",
+          "url": "https://www.bis.org/media-releases/20260225-basel-committee-discusses-recent-market-developments-and-targeted-review-cryptoasset-standard",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "wolfsberg",
+      "region": "global",
+      "name": "Wolfsberg Group guidance",
+      "short": "Wolfsberg",
+      "stage": "in_force",
+      "stage_label": "Voluntary industry guidance",
+      "summary": "An association of 12 global banks that publishes financial crime risk management guidance. Its guidance is voluntary good practice, not regulation.",
+      "points": [
+        "23 June 2026: updated Guidance on the Risk-Based Approach, replacing work dating back to 2006. It focuses on proportionality, prioritisation and effectiveness.",
+        "15 July 2026: Guidance on providing banking services to non-bank payment service providers, covering relationship mapping, payment transparency and proprietary versus third-party flows.",
+        "2025: Guidance on providing banking services to fiat-backed stablecoin issuers."
+      ],
+      "timeline": [
+        {
+          "date": "2025",
+          "label": "Stablecoin issuer banking guidance",
+          "done": true
+        },
+        {
+          "date": "2026-06-23",
+          "label": "Updated risk-based approach guidance",
+          "done": true
+        },
+        {
+          "date": "2026-07-15",
+          "label": "Non-bank PSP banking guidance",
+          "done": true
+        }
+      ],
+      "next": "No scheduled publications are announced.",
+      "authorities": [
+        "Wolfsberg Group"
+      ],
+      "links": [
+        {
+          "label": "Wolfsberg — updated risk-based approach guidance",
+          "url": "https://wolfsberg-group.org/news/guidance-on-the-risk-based-approach",
+          "quality": "primary"
+        },
+        {
+          "label": "Wolfsberg — non-bank PSP guidance",
+          "url": "https://wolfsberg-group.org/news/guidance-on-the-provision-of-banking-services",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "bis-monetary",
+      "region": "global",
+      "name": "BIS on stablecoins & tokenisation",
+      "short": "BIS",
+      "stage": "in_force",
+      "stage_label": "Research & policy positions",
+      "summary": "The BIS (the central banks' bank) publishes research and policy positions that shape how central banks approach stablecoins, tokenised deposits and cross-border payments.",
+      "points": [
+        "Annual Economic Report, 23 June 2026 (Chapter III): the BIS says current stablecoin designs fall short on key properties of money, particularly singleness. It calls for tokenisation to be brought into the two-tier monetary system anchored in central bank money.",
+        "A 28 August 2026 speech set out the BIS view that tokenised deposits should carry most day-to-day and wholesale payments, with stablecoins in a complementary role.",
+        "An October 2026 BIS working paper by Harvard Business School authors finds that centralised crypto exchanges play a role similar to correspondent banks in stablecoin cross-border payments."
+      ],
+      "timeline": [
+        {
+          "date": "2026-06-23",
+          "label": "Annual Economic Report 2026",
+          "done": true
+        },
+        {
+          "date": "2026-08-28",
+          "label": "Speech on stablecoins and tokenised deposits",
+          "done": true
+        }
+      ],
+      "next": "Ongoing.",
+      "authorities": [
+        "BIS"
+      ],
+      "links": [
+        {
+          "label": "BIS — Annual Economic Report press release",
+          "url": "https://www.bis.org/press/p260623.htm",
+          "quality": "primary"
+        },
+        {
+          "label": "BIS — 'Pushing the monetary frontier' speech",
+          "url": "https://www.bis.org/speeches/20260828-pushing-monetary-frontier-stablecoins-and-tokenised-deposits",
+          "quality": "primary"
+        }
+      ],
+      "updated": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "id": "2026-10-23-fca-fincrime-guide",
+      "region": "uk",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "authority": "FCA",
+      "type": "Consultation",
+      "title": "FCA consults on Financial Crime Guide updates, including crypto",
+      "summary": "Proposed changes to the FCA's Financial Crime Guide covering cryptoassets alongside fraud, sanctions, data security and money laundering.",
+      "what_changed": [
+        "Sets out supervisory expectations on wallet and transaction checks, blockchain analytics and the Travel Rule.",
+        "The draft lists a blockchain link to criminal or sanctioned activity among the situations calling for enhanced due diligence.",
+        "The FCA says the guide clarifies expectations rather than adding new AML requirements, and does not postpone existing duties."
+      ],
+      "who": "Firms in the FCA's financial crime supervisory population, including MLR-registered cryptoasset businesses.",
+      "dates": "Responses due 24 December 2026.",
+      "tracker": "uk-crypto",
+      "links": [
+        {
+          "label": "Finance Magnates — FCA consultation on crypto checks",
+          "url": "https://www.financemagnates.com/cryptocurrency/regulation/how-far-should-crypto-firms-trace-a-transaction-fca-says-risk-should-decide/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-fca-defi",
+      "region": "uk",
+      "date": "2026-10-21",
+      "added": "2026-10-26",
+      "authority": "FCA",
+      "type": "Consultation",
+      "title": "FCA consults on DeFi guidance (GC26/7) and crypto perimeter guidance (CP26/36)",
+      "summary": "Two consultations explaining how existing rules apply when firms use decentralised finance, and when cryptoasset activities need authorisation.",
+      "what_changed": [
+        "GC26/7 is non-Handbook guidance on how operational resilience (SYSC 15A), financial crime systems and controls (SYSC 6) and the MLRs apply to firms that use or provide access to DeFi.",
+        "CP26/36 updates the Perimeter Guidance Manual (PERG) for new exclusions from cryptoasset regulation, including certain temporary stablecoin holding arrangements for payment transactions and arrangements involving backing assets.",
+        "The FCA's position is that using smart contracts or decentralised governance does not, by itself, decide whether an activity needs authorisation."
+      ],
+      "who": "FCA-authorised firms using DeFi, firms planning regulated cryptoasset activities from 25 October 2027, and their advisers.",
+      "dates": "Both close 18 November 2026. Final guidance is planned for January 2027.",
+      "tracker": "uk-crypto",
+      "links": [
+        {
+          "label": "FCA — GC26/7 Decentralised finance guidance",
+          "url": "https://www.fca.org.uk/publications/guidance-consultations/gc26-7-decentralised-finance-guidance",
+          "quality": "primary"
+        },
+        {
+          "label": "FCA — CP26/36 Cryptoasset perimeter guidance",
+          "url": "https://www.fca.org.uk/publications/consultation-papers/cp26-36-cryptoasset-perimeter-guidance",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-occ-genius-final",
+      "region": "us",
+      "date": "2026-10-21",
+      "added": "2026-10-26",
+      "authority": "OCC",
+      "type": "Final rule",
+      "title": "OCC issues final GENIUS Act rule for payment stablecoin issuers",
+      "summary": "This is the first final rule from a federal banking agency under the GENIUS Act. It sets the prudential framework for stablecoin issuers under OCC jurisdiction.",
+      "what_changed": [
+        "Adds a new 12 CFR Part 15 covering permitted activities, reserve assets, redemption, risk management, audits and reporting, custody, licensing and registration (including foreign issuers), and a capital and operational backstop.",
+        "Reserves must back outstanding stablecoins 1:1. The minimum daily liquidity requirement is cut from the proposed 10% to 5% of reserve assets.",
+        "There is a $5m minimum capital floor for newly approved issuers. Issuers must notify the OCC when redemption requests exceed 10% of a stablecoin's outstanding value within 24 hours.",
+        "The OCC will not presume that rewards programmes that existed before the Act comply with its ban on paying holders interest or yield.",
+        "BSA/AML and sanctions requirements are excluded and will be covered in a separate rulemaking with Treasury."
+      ],
+      "who": "National banks and federal savings associations and their subsidiaries, federal branches, federal qualified nonbank issuers, certain state qualified issuers, and foreign payment stablecoin issuers.",
+      "dates": "Effective 18 January 2027, the same day the GENIUS Act takes effect.",
+      "tracker": "genius",
+      "links": [
+        {
+          "label": "OCC Bulletin 2026-50",
+          "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+          "quality": "primary"
+        },
+        {
+          "label": "Sheppard Mullin — final rule highlights",
+          "url": "https://www.sheppard.com/insights/blogs/occ-finalizes-genius-act-rules-for-payment-stablecoin-issuers",
+          "quality": "secondary"
+        },
+        {
+          "label": "CoinDesk — rewards programmes and the yield ban",
+          "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-fatf-plenary-notice",
+      "region": "global",
+      "date": "2026-10-20",
+      "added": "2026-10-26",
+      "authority": "FATF",
+      "type": "Notice",
+      "title": "FATF announces October 2026 plenary agenda",
+      "summary": "The first plenary under the UK presidency of Giles Thomson runs 28–30 October in Paris.",
+      "what_changed": [
+        "Delegates are expected to discuss the mutual evaluation reports of Mexico and the United States under the new round of evaluations.",
+        "The plenary will review progress by jurisdictions under increased monitoring, which may change the grey list.",
+        "Outcomes will be announced at a press conference on 30 October."
+      ],
+      "who": "All firms that use FATF lists in country-risk ratings and EDD triggers.",
+      "dates": "Plenary 28–30 October 2026. Outcomes 30 October.",
+      "tracker": "fatf",
+      "links": [
+        {
+          "label": "FATF — FATF Week, October 2026",
+          "url": "https://www.fatf-gafi.org/en/news/fatf-week-october-2026.html",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-eba-usdc",
+      "region": "eu",
+      "date": "2026-10-14",
+      "added": "2026-10-26",
+      "authority": "EBA",
+      "type": "Supervisory decision",
+      "title": "EBA classifies USDC as the EU's first significant e-money token",
+      "summary": "Under MiCA, the EBA has classified USDC, issued by Circle Internet Financial Europe SAS, as a significant EMT.",
+      "what_changed": [
+        "This is the first significance classification for an EMT. At the time, 45 EMTs had been notified in the EU.",
+        "Significant EMTs move under EBA supervision for certain requirements and face additional obligations, for example on liquidity management and own funds."
+      ],
+      "who": "The issuer, and CASPs and other firms that list or hold USDC.",
+      "dates": "Announced 14 October 2026.",
+      "tracker": "mica",
+      "links": [
+        {
+          "label": "EBA — press releases",
+          "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-fsb-g20",
+      "region": "global",
+      "date": "2026-10-12",
+      "added": "2026-10-26",
+      "authority": "FSB",
+      "type": "Report",
+      "title": "FSB reports to the G20 on global stablecoin vulnerabilities",
+      "summary": "A note on cross-border vulnerabilities and financial-stability monitoring of global stablecoin arrangements, published with a letter from Chair Andrew Bailey.",
+      "what_changed": [
+        "Puts the global stablecoin market at about $300bn, roughly 99% pegged to the US dollar.",
+        "Describes how a stablecoin run could reach traditional markets, through forced reserve-asset sales and bank-deposit withdrawals.",
+        "Flags multi-issuer stablecoins, where redemption demand may concentrate on one issuer while reserves are held in different jurisdictions.",
+        "Calls for more cross-border information sharing, monitoring and planning for stablecoin distress or failure."
+      ],
+      "who": "Authorities and firms involved in stablecoin issuance, reserves and distribution.",
+      "dates": "Published 12 October 2026, ahead of the 15 October G20 meeting.",
+      "tracker": "fsb-stablecoins",
+      "links": [
+        {
+          "label": "FSB — crypto-assets and global stablecoins",
+          "url": "https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/crypto-assets-and-global-stablecoins/",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-ecofin-misp",
+      "region": "eu",
+      "date": "2026-10-09",
+      "added": "2026-10-26",
+      "authority": "Council of the EU",
+      "type": "Negotiating position",
+      "title": "Council agrees position on ESMA supervision package (MISP)",
+      "summary": "ECOFIN agreed the key elements of its position on the Market Integration and Supervision Package after nine months of negotiation.",
+      "what_changed": [
+        "Only the most significant CASPs would come under direct ESMA supervision. The Commission had proposed all CASPs.",
+        "Supervision of significant CCPs and CSDs would move to ESMA, as would the most significant cross-border trading venues.",
+        "Supports the Pan-European Market Operator (PEMO) concept and a two-year transition for ESMA."
+      ],
+      "who": "CASPs, CCPs, CSDs and trading venues operating across the EU.",
+      "dates": "Position agreed 9 October 2026. Trilogues follow once the Parliament has its position.",
+      "tracker": "misp",
+      "links": [
+        {
+          "label": "Norton Rose Fulbright — Council position on MISP",
+          "url": "https://www.regulationtomorrow.com/2026/10/council-adopts-key-elements-of-negotiating-position-on-misp/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-amla-database",
+      "region": "eu",
+      "date": "2026-10-07",
+      "added": "2026-10-26",
+      "authority": "AMLA",
+      "type": "Consultation",
+      "title": "AMLA consults on a central EU AML/CFT database",
+      "summary": "Draft RTS under Article 11(6) AMLAR setting out what information supervisors must report into AMLA's central database.",
+      "what_changed": [
+        "Defines the supervisory information that national supervisors, and AMLA itself when it acts as a supervisor, must submit for each obliged entity under their supervision."
+      ],
+      "who": "National AML/CFT supervisors directly. Obliged entities indirectly, through supervisory data requests.",
+      "dates": "Public hearing on 3 November 2026, 14:00–16:00 CET.",
+      "tracker": "aml-package",
+      "links": [
+        {
+          "label": "RegReportingDesk — central database RTS explained",
+          "url": "https://regreportingdesk.com/amla-central-database-rts-aml-cft-supervisory-reporting/",
+          "quality": "lower"
+        },
+        {
+          "label": "AMLA — homepage (consultations)",
+          "url": "https://www.amla.europa.eu/",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-cftc-anprm",
+      "region": "us",
+      "date": "2026-10-05",
+      "added": "2026-10-26",
+      "authority": "CFTC",
+      "type": "Advance notice (ANPRM)",
+      "title": "CFTC opens rulemaking on retail crypto transactions (Regulation CTX and CAM)",
+      "summary": "The CFTC's first step towards crypto market rules. It seeks views on a federal framework for leveraged, margined or financed retail crypto transactions.",
+      "what_changed": [
+        "Regulation CTX would set out which retail crypto transactions fall within the CFTC's existing authority.",
+        "Regulation CAM would create a 'crypto asset market', a new subcategory of designated contract market for venues offering only these transactions.",
+        "Registration would be optional for spot-only exchanges. Ordinary spot trading would stay largely under state regulation."
+      ],
+      "who": "Crypto exchanges, intermediaries and existing CFTC registrants.",
+      "dates": "Announced 5 October 2026. A proposed rule would follow comments.",
+      "tracker": "cftc-crypto",
+      "links": [
+        {
+          "label": "CFTC — Chairman Selig remarks",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/opaselig12",
+          "quality": "primary"
+        },
+        {
+          "label": "Sidley — ANPRM explained",
+          "url": "https://www.sidley.com/en/insights/newsupdates/2026/10/cftc-seeks-comment-on-proposed-federal-framework-for-retail-crypto-transactions",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-amla-rts",
+      "region": "eu",
+      "date": "2026-10-01",
+      "added": "2026-10-26",
+      "authority": "AMLA",
+      "type": "Final draft standards",
+      "title": "AMLA submits final draft RTS on CDD, linked transactions and group-wide rules",
+      "summary": "Three private-sector technical standards under the AMLR were finalised and sent to the European Commission.",
+      "what_changed": [
+        "CDD (Art. 28(1) AMLR): the information to be collected for simplified, standard and enhanced due diligence, the types of simplified measures, acceptable verification sources and electronic identification.",
+        "Business relationships, occasional and linked transactions, and lower thresholds (Art. 19(9)).",
+        "Group-wide requirements (Arts. 16(4) and 17(3)): minimum actions and additional measures where third-country law prevents compliance, plus supervisory actions.",
+        "A final RTS on home–host supervisory cooperation (Art. 46(4) AMLD) was published the same day."
+      ],
+      "who": "All obliged entities under the AMLR, particularly groups with branches or subsidiaries outside the EU.",
+      "dates": "Submitted 1 October 2026. They apply via Commission delegated acts, in line with the AMLR from 10 July 2027.",
+      "tracker": "aml-package",
+      "links": [
+        {
+          "label": "Norton Rose Fulbright — AMLA finalises key standards",
+          "url": "https://www.regulationtomorrow.com/2026/10/amla-finalises-key-standards-for-the-private-sector/",
+          "quality": "secondary"
+        },
+        {
+          "label": "AMLA — CDD consultation page and outcome",
+          "url": "https://www.amla.europa.eu/policy/public-consultations/consultation-draft-rts-customer-due-diligence_en",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-fca-gateway",
+      "region": "uk",
+      "date": "2026-09-30",
+      "added": "2026-10-26",
+      "authority": "FCA",
+      "type": "Milestone",
+      "title": "FCA cryptoasset authorisation gateway opens",
+      "summary": "Firms with existing UK cryptoasset business can now apply for permission to carry on the new regulated cryptoasset activities.",
+      "what_changed": [
+        "The application window for existing firms runs until 28 February 2027.",
+        "Savings provisions can let firms keep providing services until their application is determined."
+      ],
+      "who": "UK cryptoasset businesses and FSMA-authorised firms needing new permissions.",
+      "dates": "Window closes 28 February 2027. The regime starts 25 October 2027.",
+      "tracker": "uk-crypto",
+      "links": [
+        {
+          "label": "FCA — CP26/36 (sets out gateway dates)",
+          "url": "https://www.fca.org.uk/publications/consultation-papers/cp26-36-cryptoasset-perimeter-guidance",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-fed-genius",
+      "region": "us",
+      "date": "2026-09-24",
+      "added": "2026-10-26",
+      "authority": "Federal Reserve",
+      "type": "Proposed rule",
+      "title": "Federal Reserve proposes GENIUS Act rules for Board-supervised issuers",
+      "summary": "Two companion proposals to implement the Fed's GENIUS Act responsibilities for payment stablecoin issuers it supervises.",
+      "what_changed": [
+        "The Fed is the last of the primary federal payment stablecoin regulators to propose rules. The statutory 18 July 2026 deadline for final rules has passed.",
+        "Each proposal has a 60-day comment period running from Federal Register publication."
+      ],
+      "who": "Fed-supervised institutions and subsidiaries seeking to issue payment stablecoins.",
+      "dates": "Proposed 24 September 2026. The Act takes effect 18 January 2027 regardless.",
+      "tracker": "genius",
+      "links": [
+        {
+          "label": "Crypto Times — OCC final rule and Fed proposals",
+          "url": "https://www.cryptotimes.io/insights/genius-act-gets-final-form-inside-the-occs-stablecoin-rule-before-january-2027/",
+          "quality": "lower"
+        },
+        {
+          "label": "Federal Reserve — press releases",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-eba-tprm",
+      "region": "eu",
+      "date": "2026-09-18",
+      "added": "2026-10-26",
+      "authority": "EBA",
+      "type": "Guidelines",
+      "title": "EBA final Guidelines on third-party risk management",
+      "summary": "EBA/GL/2026/09 replaces the 2019 Guidelines on outsourcing arrangements for non-ICT third-party services. ICT third parties fall under DORA.",
+      "what_changed": [
+        "Extends the framework from narrow 'outsourcing' to all non-ICT third-party arrangements, with focus on those supporting critical or important functions.",
+        "The 2019 outsourcing guidelines are repealed when the new Guidelines take effect."
+      ],
+      "who": "Credit institutions, investment firms, payment and e-money institutions and other EBA-scope entities.",
+      "dates": "Published 18 September 2026.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "Morrison Foerster — Guidelines explained",
+          "url": "https://www.mofo.com/resources/insights/261001-eba-publishes-updated-guidelines",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-clarity-cloture",
+      "region": "us",
+      "date": "2026-09-15",
+      "added": "2026-10-26",
+      "authority": "US Senate",
+      "type": "Legislative vote",
+      "title": "Senate cloture vote on the CLARITY Act fails 49–50",
+      "summary": "The Senate did not reach the 60 votes needed to begin debating the digital asset market structure bill.",
+      "what_changed": [
+        "The vote was on cloture for the motion to proceed, not on the bill's substance. A motion to reconsider was entered.",
+        "Passage in the current Congress is widely viewed as unlikely. The SEC and CFTC are continuing rulemaking under their existing powers."
+      ],
+      "who": "Digital asset issuers, exchanges and intermediaries.",
+      "dates": "Vote 15 September 2026. The 119th Congress ends in January 2027.",
+      "tracker": "clarity",
+      "links": [
+        {
+          "label": "Congress.gov — H.R.3633 bill record",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+          "quality": "primary"
+        },
+        {
+          "label": "DLA Piper — Senate fails to advance the CLARITY Act",
+          "url": "https://www.dlapiper.com/en/insights/publications/2026/09/senate-fails-to-advance-the-clarity-act",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-sec-regca",
+      "region": "us",
+      "date": "2026-08-18",
+      "added": "2026-10-26",
+      "authority": "SEC",
+      "type": "Proposed rule",
+      "title": "SEC proposes Regulation Crypto Assets",
+      "summary": "A crypto-specific offering framework for 'covered investment contracts' whose subject crypto asset is not itself a security.",
+      "what_changed": [
+        "Startup exemption up to $5m over four years, and fundraising exemption up to $75m per 12 months.",
+        "Conditional safe harbour once an issuer completes or permanently stops its promised essential managerial efforts.",
+        "Pre-emption of certain state registration requirements, plus new disclosure and reporting forms."
+      ],
+      "who": "Crypto issuers, trading platforms and investors.",
+      "dates": "Comment period closed 20 October 2026.",
+      "tracker": "sec-crypto",
+      "links": [
+        {
+          "label": "SEC — Commissioner Uyeda statement",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-regulation-crypto-assets-081826",
+          "quality": "primary"
+        },
+        {
+          "label": "Congressional Research Service — LSB11480",
+          "url": "https://www.congress.gov/crs-product/LSB11480",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-17-treasury-sec3",
+      "region": "us",
+      "date": "2026-08-17",
+      "added": "2026-10-26",
+      "authority": "US Treasury",
+      "type": "Proposed rule",
+      "title": "Treasury proposes GENIUS Act rules on stablecoin issuance, offer and sale",
+      "summary": "Implements Section 3 of the GENIUS Act, which limits who may issue payment stablecoins in the US and what digital asset service providers may offer.",
+      "what_changed": [
+        "Under the proposal, an issuance occurs in the US if either the issuer or the recipient is located there.",
+        "A stablecoin is treated as 'issued' at the first transfer of a newly minted token to an outside party for circulation or redemption.",
+        "DASPs may rely on a foreign issuer's representation of compliance, but only after reasonable due diligence. There is a 'reasonable belief' safe harbour for foreign issuers.",
+        "Treasury chose not to model the rule on securities or commodities frameworks such as Regulation S."
+      ],
+      "who": "Domestic and foreign stablecoin issuers and digital asset service providers.",
+      "dates": "Published in the Federal Register 18 August 2026.",
+      "tracker": "genius",
+      "links": [
+        {
+          "label": "Federal Register — Treasury Section 3 proposal",
+          "url": "https://www.federalregister.gov/documents/2026/08/18/2026-16796/genius-act-regulations-on-payment-stablecoin-issuance-offer-and-sale",
+          "quality": "primary"
+        },
+        {
+          "label": "Freshfields — gatekeeping rules and foreign issuers",
+          "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/treasury-proposes-genius-act-gatekeeping-rules-with-a-path-for-foreign-issuers-102nri4",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-wolfsberg-psp",
+      "region": "global",
+      "date": "2026-07-15",
+      "added": "2026-10-26",
+      "authority": "Wolfsberg Group",
+      "type": "Guidance",
+      "title": "Wolfsberg guidance on banking non-bank payment service providers",
+      "summary": "A practical framework for banks managing relationships with non-bank PSPs within their risk appetite.",
+      "what_changed": [
+        "Covers relationship mapping, understanding the PSP's own customers, and payment transparency in line with FATF Recommendation 16.",
+        "Distinguishes proprietary, third-party and bundled payment flows."
+      ],
+      "who": "Banks providing accounts and clearing to PSPs and EMIs. The guidance is voluntary.",
+      "dates": "Published 15 July 2026.",
+      "tracker": "wolfsberg",
+      "links": [
+        {
+          "label": "Wolfsberg — non-bank PSP guidance",
+          "url": "https://wolfsberg-group.org/news/guidance-on-the-provision-of-banking-services",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-09-digital-euro-ep",
+      "region": "eu",
+      "date": "2026-07-09",
+      "added": "2026-10-26",
+      "authority": "European Parliament",
+      "type": "Legislative vote",
+      "title": "European Parliament adopts digital euro negotiating mandate",
+      "summary": "The plenary voted 416–169 (22 abstentions) to open trilogue negotiations on the digital euro regulation.",
+      "what_changed": [
+        "Trilogues with the Council and Commission can begin. The legal-tender-of-cash regulation also goes to trilogue."
+      ],
+      "who": "Banks, PSPs and e-money issuers that would distribute the digital euro.",
+      "dates": "The institutions aim to finish by the end of 2026.",
+      "tracker": "digital-euro",
+      "links": [
+        {
+          "label": "Banca d'Italia — Parliament opens negotiations",
+          "url": "https://www.bancaditalia.it/media/notizia/the-european-parliament-decided-to-open-negotiations-on-the-digital-euro-regulation/",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-fca-crypto-ps",
+      "region": "uk",
+      "date": "2026-06-30",
+      "added": "2026-10-26",
+      "authority": "FCA",
+      "type": "Final rules",
+      "title": "FCA publishes final rules for the UK cryptoasset regime (PS26/9 to PS26/13)",
+      "summary": "Five policy statements, three pieces of finalised guidance and two further guidance consultations.",
+      "what_changed": [
+        "Final rules on admissions, disclosures and market abuse; stablecoin issuance; trading, custody, lending and staking; prudential requirements; and application of the wider Handbook.",
+        "Stablecoin issuers may not pass backing-asset income or interest to holders. One prudential multiplier was reduced from 2% to 1% of average stablecoins in issuance.",
+        "Multi-currency stablecoins are outside the qualifying-stablecoin rules."
+      ],
+      "who": "Cryptoasset trading platforms, intermediaries, custodians, stablecoin issuers and staking providers.",
+      "dates": "Rules apply to firms authorised for the regime from 25 October 2027.",
+      "tracker": "uk-crypto",
+      "links": [
+        {
+          "label": "FCA — cryptoasset regime policy statements",
+          "url": "https://www.fca.org.uk/publications/policy-statements/cryptoasset-regime",
+          "quality": "primary"
+        },
+        {
+          "label": "Freshfields — five landmark policy statements",
+          "url": "https://www.freshfields.com/en/our-thinking/briefings/2026/07/set-in-stone-five-landmark-crypto-policy-statements",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-uk-mlrs",
+      "region": "uk",
+      "date": "2026-06-30",
+      "added": "2026-10-26",
+      "authority": "HM Treasury",
+      "type": "Legislation in force",
+      "title": "Amended Money Laundering Regulations take effect (SI 2026/621)",
+      "summary": "Targeted amendments to the MLRs 2017 come into force, following HM Treasury's effectiveness review.",
+      "what_changed": [
+        "Mandatory high-risk-country EDD is now tied to the FATF call-for-action list. EDD still applies wherever a high risk is identified.",
+        "Changes to 'unusually complex or unusually large' transactions, pooled client accounts, sterling thresholds and the Trust Registration Service."
+      ],
+      "who": "All MLR-regulated firms.",
+      "dates": "Most provisions in force 30 June 2026. Some crypto provisions start in 2027.",
+      "tracker": "uk-mlrs",
+      "links": [
+        {
+          "label": "legislation.gov.uk — SI 2026/621",
+          "url": "https://www.legislation.gov.uk/uksi/2026/621",
+          "quality": "primary"
+        },
+        {
+          "label": "STEP — amended MLRs in force",
+          "url": "https://www.step.org/industry-news/updated-uk-money-laundering-regulations-come-effect-30-june",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-bis-aer",
+      "region": "global",
+      "date": "2026-06-23",
+      "added": "2026-10-26",
+      "authority": "BIS",
+      "type": "Report",
+      "title": "BIS Annual Economic Report: stablecoins and the future monetary system",
+      "summary": "Chapter III sets out the BIS view on stablecoins and tokenisation.",
+      "what_changed": [
+        "The BIS argues that current stablecoin designs fall short on key properties of money, particularly singleness.",
+        "It calls for weaknesses in stablecoin arrangements to be addressed and for tokenisation to be brought into the two-tier system anchored in central bank money."
+      ],
+      "who": "Central banks, regulators and payment-system designers.",
+      "dates": "Published 23 June 2026.",
+      "tracker": "bis-monetary",
+      "links": [
+        {
+          "label": "BIS — press release",
+          "url": "https://www.bis.org/press/p260623.htm",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-wolfsberg-rba",
+      "region": "global",
+      "date": "2026-06-23",
+      "added": "2026-10-26",
+      "authority": "Wolfsberg Group",
+      "type": "Guidance",
+      "title": "Wolfsberg updates its Guidance on the Risk-Based Approach",
+      "summary": "The member banks' collective view on designing financial crime programmes that are proportionate, prioritised and effective.",
+      "what_changed": [
+        "Updates the Group's RBA work dating from 2006.",
+        "Adds emphasis on risk-based supervision, training and culture alongside risk assessment and controls."
+      ],
+      "who": "Financial crime compliance teams at banks and other FIs. The guidance is voluntary.",
+      "dates": "Published 23 June 2026.",
+      "tracker": "wolfsberg",
+      "links": [
+        {
+          "label": "Wolfsberg — RBA guidance announcement",
+          "url": "https://wolfsberg-group.org/news/guidance-on-the-risk-based-approach",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-boe-stablecoins",
+      "region": "uk",
+      "date": "2026-06-22",
+      "added": "2026-10-26",
+      "authority": "Bank of England",
+      "type": "Policy statement",
+      "title": "Bank of England sets policy for systemic sterling stablecoins",
+      "summary": "A policy statement and draft Code of Practice for issuers that HM Treasury recognises as systemic.",
+      "what_changed": [
+        "Per-holder limits are dropped and replaced by a temporary £40bn issuance guardrail per systemic stablecoin.",
+        "Backing can be up to 70% short-term gilts, with at least 30% in unremunerated Bank deposits.",
+        "Interest to holders is prohibited, and a central bank liquidity facility is proposed."
+      ],
+      "who": "Prospective systemic sterling stablecoin issuers and their banking and custody partners.",
+      "dates": "Draft Code consultation closed 22 September 2026. The final Code is expected by the end of 2026.",
+      "tracker": "uk-systemic-stablecoins",
+      "links": [
+        {
+          "label": "Bank of England & FCA — joint approach document",
+          "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
+          "quality": "primary"
+        },
+        {
+          "label": "Eversheds Sutherland — BoE finalises systemic stablecoin regime",
+          "url": "https://www.eversheds-sutherland.com/en/united-kingdom/insights/uk-bo-e-finalises-systemic-stablecoin-regime",
+          "quality": "secondary"
+        }
+      ]
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-28",
+      "end": "2026-10-30",
+      "region": "global",
+      "title": "FATF plenary, Paris. Outcomes and list changes 30 Oct",
+      "tracker": "fatf"
+    },
+    {
+      "date": "2026-10-28",
+      "end": "2026-10-30",
+      "region": "us",
+      "title": "FATF plenary expected to discuss the US mutual evaluation report",
+      "tracker": "fatf"
+    },
+    {
+      "date": "2026-11-03",
+      "region": "eu",
+      "title": "AMLA public hearing: central AML/CFT database RTS",
+      "tracker": "aml-package"
+    },
+    {
+      "date": "2026-11-18",
+      "region": "uk",
+      "title": "FCA GC26/7 (DeFi) and CP26/36 (perimeter) consultations close",
+      "tracker": "uk-crypto"
+    },
+    {
+      "date": "2026-12-24",
+      "region": "uk",
+      "title": "FCA Financial Crime Guide consultation closes",
+      "tracker": "uk-crypto"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "region": "uk",
+      "title": "Bank of England final Code of Practice for systemic stablecoins (by end-2026)",
+      "tracker": "uk-systemic-stablecoins"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "region": "eu",
+      "title": "PSD3/PSR Official Journal publication expected (H2 2026)",
+      "tracker": "psd3-psr"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "region": "eu",
+      "title": "Target to conclude digital euro legislation (end-2026)",
+      "tracker": "digital-euro"
+    },
+    {
+      "date": "2027-01-18",
+      "region": "us",
+      "title": "GENIUS Act and OCC final rule take effect",
+      "tracker": "genius"
+    },
+    {
+      "date": "2027-01-31",
+      "approx": true,
+      "region": "uk",
+      "title": "FCA final DeFi guidance expected (January 2027)",
+      "tracker": "uk-crypto"
+    },
+    {
+      "date": "2027-02-28",
+      "region": "uk",
+      "title": "FCA crypto gateway window for existing firms closes",
+      "tracker": "uk-crypto"
+    },
+    {
+      "date": "2027-07-01",
+      "region": "eu",
+      "title": "AMLA starts selecting directly supervised entities",
+      "tracker": "aml-package"
+    },
+    {
+      "date": "2027-07-10",
+      "region": "eu",
+      "title": "AMLR single rulebook applies",
+      "tracker": "aml-package"
+    },
+    {
+      "date": "2027-10-25",
+      "region": "uk",
+      "title": "UK cryptoasset regime in force",
+      "tracker": "uk-crypto"
+    },
+    {
+      "date": "2028-01-01",
+      "region": "us",
+      "title": "FinCEN investment adviser AML rule effective (delayed)",
+      "tracker": "bsa-reform"
+    }
+  ]
+}

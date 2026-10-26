@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RegWatch</title>
+  <meta name="description" content="Plain-English tracker of financial regulatory developments across the EU, UK, US and global standard setters.">
+  <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121418" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="offline-banner" class="banner" hidden></div>
+
+  <header class="top">
+    <div class="top-row">
+      <div class="wordmark">Reg<span>Watch</span></div>
+      <div class="top-actions">
+        <button class="icon-btn" id="btn-search" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        </button>
+        <button class="icon-btn" id="btn-info" aria-label="Sources and about">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>
+        </button>
+      </div>
+    </div>
+    <h1 id="region-title">—</h1>
+    <p class="meta" id="meta">Loading…</p>
+    <nav class="segments" role="tablist" aria-label="View">
+      <button role="tab" data-view="latest" aria-selected="true">Latest</button>
+      <button role="tab" data-view="tracker" aria-selected="false">Tracker</button>
+      <button role="tab" data-view="ahead" aria-selected="false">Ahead</button>
+    </nav>
+  </header>
+
+  <main id="content" aria-live="polite"></main>
+
+  <nav class="regions" aria-label="Region">
+    <button data-region="eu"><span class="r-code">EU</span><span class="r-name">Europe</span><i class="dot" hidden></i></button>
+    <button data-region="uk"><span class="r-code">UK</span><span class="r-name">United Kingdom</span><i class="dot" hidden></i></button>
+    <button data-region="us"><span class="r-code">US</span><span class="r-name">United States</span><i class="dot" hidden></i></button>
+    <button data-region="global"><span class="r-code">GL</span><span class="r-name">Global</span><i class="dot" hidden></i></button>
+  </nav>
+
+  <div class="sheet" id="search-sheet" hidden>
+    <div class="sheet-panel">
+      <div class="sheet-head">
+        <input id="search-input" type="search" placeholder="Search all regions — e.g. stablecoin, AMLA, Travel Rule" autocomplete="off">
+        <button class="text-btn" data-close>Close</button>
+      </div>
+      <div id="search-results" class="sheet-body"></div>
+    </div>
+  </div>
+
+  <div class="sheet" id="info-sheet" hidden>
+    <div class="sheet-panel">
+      <div class="sheet-head">
+        <h2>About & sources</h2>
+        <button class="text-btn" data-close>Close</button>
+      </div>
+      <div id="info-body" class="sheet-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
