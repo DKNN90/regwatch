@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T04:00:00Z",
-  "next_update": "2026-10-29",
-  "coverage_note": "Seed edition. Covers publications up to 26 October 2026. Updates run every Monday and Thursday.",
+  "generated_at": "2026-10-29T07:15:00Z",
+  "next_update": "2026-11-02",
+  "coverage_note": "Covers publications up to 29 October 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
       "id": "eu",
@@ -35,7 +35,7 @@
       "name": "European Commission / Council / Parliament",
       "region": "eu",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "eba",
@@ -56,7 +56,7 @@
       "name": "Anti-Money Laundering Authority (AMLA)",
       "region": "eu",
       "url": "https://www.amla.europa.eu/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "ecb",
@@ -70,7 +70,7 @@
       "name": "HM Treasury",
       "region": "uk",
       "url": "https://www.gov.uk/government/organisations/hm-treasury",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fca",
@@ -91,14 +91,14 @@
       "name": "Payment Systems Regulator (PSR)",
       "region": "uk",
       "url": "https://www.psr.org.uk/news-and-updates/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "congress",
       "name": "US Congress",
       "region": "us",
       "url": "https://www.congress.gov/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "treasury",
@@ -133,7 +133,7 @@
       "name": "FDIC",
       "region": "us",
       "url": "https://www.fdic.gov/news/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "sec",
@@ -154,7 +154,7 @@
       "name": "Financial Action Task Force (FATF)",
       "region": "global",
       "url": "https://www.fatf-gafi.org/en/publications.html",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fsb",
@@ -223,6 +223,11 @@
           "done": true
         },
         {
+          "date": "2026-10-23",
+          "label": "Council publishes its position at first reading on PSD3 (dated 21 Oct; ST 8535/26)",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "Official Journal publication expected (H2 2026, no date confirmed)",
           "done": false,
@@ -235,7 +240,7 @@
           "approx": true
         }
       ],
-      "next": "Formal Council adoption, Parliament second-reading vote, signature and Official Journal publication. As of early October 2026 the texts had not yet been published in the Official Journal.",
+      "next": "Parliament second-reading vote to approve the Council's first-reading position, then signature and Official Journal publication. As of 29 October 2026 the texts had not been published in the Official Journal.",
       "authorities": [
         "European Commission",
         "Council of the EU",
@@ -257,9 +262,14 @@
           "label": "Adyen — PSD3/PSR timeline (updated Oct 2026)",
           "url": "https://www.adyen.com/knowledge-hub/psd3",
           "quality": "secondary"
+        },
+        {
+          "label": "Regulation Tomorrow — Council publishes PSD3 first-reading position",
+          "url": "https://www.regulationtomorrow.com/2026/10/psd3-council-of-eu-publishes-first-reading-position-with-view-to-adoption/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-10-29"
     },
     {
       "id": "aml-package",
@@ -481,13 +491,18 @@
           "done": true
         },
         {
+          "date": "2026-10-20",
+          "label": "Fifth political trilogue (offline limits, AML for small payments, long-term operating model)",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "Target to conclude legislative process",
           "done": false,
           "approx": true
         }
       ],
-      "next": "Trilogue agreement between the Parliament, Council and Commission.",
+      "next": "Next political trilogue on 5 November 2026; negotiators aim to conclude by the end of 2026.",
       "authorities": [
         "European Parliament",
         "Council of the EU",
@@ -504,9 +519,14 @@
           "label": "The Paypers — ECON approval",
           "url": "https://thepaypers.com/regulations/news/digital-euro-clears-key-eu-parliamentary-hurdle",
           "quality": "secondary"
+        },
+        {
+          "label": "Agence Europe — fifth digital euro trilogue",
+          "url": "https://agenceurope.eu/en/bulletin/article/13964/26/digital-euro-eu-co-legislators-examine-anti-money-laundering-offline-payments-usage-fees",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-10-29"
     },
     {
       "id": "uk-crypto",
@@ -1957,6 +1977,42 @@
           "quality": "secondary"
         }
       ]
+    },
+    {
+      "id": "2026-10-26-ofac-blocking-rejecting-faqs",
+      "region": "us",
+      "date": "2026-10-26",
+      "added": "2026-10-29",
+      "authority": "US Treasury / OFAC",
+      "type": "Guidance",
+      "title": "OFAC amends 11 FAQs on blocking, rejecting and reporting transactions",
+      "summary": "OFAC revised 11 of its basic FAQs on when to block or reject a transaction, how to handle blocked accounts, and the reporting obligations under 31 CFR Part 501, as part of a review of its published guidance.",
+      "what_changed": [
+        "Amended FAQs 10, 32–36, 41, 42, 49, 50 and 53; OFAC's page shows the new text but does not set out the previous wording.",
+        "FAQs 35, 36 and 53: blocking applies where a blocked person has an interest; a prohibited transaction with no blockable interest is rejected; a customer query is distinguished from a payment instruction.",
+        "FAQs 49, 50 and 32: blocked-property and reject reports are due within 10 business days via the OFAC Reporting System (31 CFR 501.603/604); the annual report covers property held at 30 June and is due by 30 September.",
+        "FAQs 33, 34, 41 and 42: blocked funds go in a segregated, interest-bearing account at a commercially reasonable rate; customers may be told property was blocked; accounts for blocked persons should not be opened and any initial deposit is blocked."
+      ],
+      "who": "US persons and financial institutions handling payments, accounts and transactions that may involve sanctioned persons or jurisdictions.",
+      "dates": "Amended 26 October 2026; effective on publication.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "OFAC — Recent actions (26 Oct 2026)",
+          "url": "https://ofac.treasury.gov/recent-actions",
+          "quality": "primary"
+        },
+        {
+          "label": "OFAC — FAQs updated 26 October 2026",
+          "url": "https://ofac.treasury.gov/faqs/updated/2026-10-26",
+          "quality": "primary"
+        },
+        {
+          "label": "KPMG — OFAC amends guidance on blocking, rejecting and reporting",
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/10/us-ofac-amends-guidance-transactions-filing-reports.html",
+          "quality": "secondary"
+        }
+      ]
     }
   ],
   "upcoming": [
@@ -1979,6 +2035,12 @@
       "region": "eu",
       "title": "AMLA public hearing: central AML/CFT database RTS",
       "tracker": "aml-package"
+    },
+    {
+      "date": "2026-11-05",
+      "region": "eu",
+      "title": "Digital euro: next political trilogue",
+      "tracker": "digital-euro"
     },
     {
       "date": "2026-11-18",
