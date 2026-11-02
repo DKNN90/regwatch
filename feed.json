@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T07:15:00Z",
-  "next_update": "2026-11-02",
-  "coverage_note": "Covers publications up to 29 October 2026. Updates run every Monday and Thursday.",
+  "generated_at": "2026-11-02T07:09:41Z",
+  "next_update": "2026-11-05",
+  "coverage_note": "Covers publications up to 2 November 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
       "id": "eu",
@@ -56,7 +56,7 @@
       "name": "Anti-Money Laundering Authority (AMLA)",
       "region": "eu",
       "url": "https://www.amla.europa.eu/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "ecb",
@@ -70,7 +70,7 @@
       "name": "HM Treasury",
       "region": "uk",
       "url": "https://www.gov.uk/government/organisations/hm-treasury",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fca",
@@ -91,7 +91,7 @@
       "name": "Payment Systems Regulator (PSR)",
       "region": "uk",
       "url": "https://www.psr.org.uk/news-and-updates/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "congress",
@@ -1111,12 +1111,13 @@
       "name": "FATF standards, plenaries & lists",
       "short": "FATF",
       "stage": "in_force",
-      "stage_label": "Ongoing — October plenary this week",
+      "stage_label": "Ongoing — next plenary February 2027",
       "summary": "FATF sets the 40 Recommendations and publishes its 'black' (call for action) and 'grey' (increased monitoring) lists after each plenary (February, June, October). Country mutual evaluation reports (MERs) are filed under the relevant region in this app.",
       "points": [
-        "The October 2026 plenary (28–30 October, Paris) is the first under the UK presidency of Giles Thomson. Outcomes will be announced on 30 October.",
-        "June 2026 plenary: Iraq and Bosnia and Herzegovina were added to the grey list, and Algeria and Namibia were removed. That left 22 jurisdictions under increased monitoring. The call-for-action list is unchanged: Iran, DPRK and Myanmar.",
-        "June 2026 also saw an update to Recommendation 6 to protect humanitarian assistance, and a consultation on guidance for cross-border payment transparency under Recommendation 16."
+        "October 2026 plenary (28–30 October, Paris; first under the UK presidency of Giles Thomson): Bulgaria, Côte d'Ivoire, the DRC and Monaco removed from the grey list, no additions, leaving 18 jurisdictions. The call-for-action list is unchanged: Iran and DPRK (countermeasures), Myanmar (EDD).",
+        "October 2026 plenary also adopted the US and Mexico mutual evaluations (publication expected December 2026), approved a report on scam-compound financial flows, and launched a targeted review of jurisdictions with material virtual-asset sectors (results June and October 2027).",
+        "Vietnam was warned over slow progress and Myanmar could face countermeasures; both are to be revisited in February 2027.",
+        "June 2026 plenary: Iraq and Bosnia and Herzegovina were added to the grey list, and Algeria and Namibia were removed. June also saw an update to Recommendation 6 to protect humanitarian assistance, and a consultation on R.16 payment-transparency guidance."
       ],
       "timeline": [
         {
@@ -1131,18 +1132,45 @@
         },
         {
           "date": "2026-10-30",
-          "label": "October plenary outcomes published",
-          "done": false
+          "label": "October plenary: Bulgaria, Côte d'Ivoire, DRC and Monaco delisted; US and Mexico MERs adopted",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "US and Mexico mutual evaluation reports expected to be published",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2027-02",
+          "label": "February plenary: Vietnam and Myanmar to be revisited",
+          "done": false,
+          "approx": true
         }
       ],
-      "next": "Plenary outcomes on 30 October 2026: list changes and adopted reports.",
+      "next": "Publication of the US and Mexico MERs (expected December 2026) and of the scam-compounds report; the February 2027 plenary will revisit Vietnam and possible countermeasures on Myanmar.",
       "authorities": [
         "FATF"
       ],
       "links": [
         {
-          "label": "FATF — FATF Week, October 2026",
-          "url": "https://www.fatf-gafi.org/en/news/fatf-week-october-2026.html",
+          "label": "FATF — Outcomes of the plenary, 28–30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — Jurisdictions under increased monitoring, 30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — High-risk jurisdictions subject to a call for action, 30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — release on FATF list changes (30 Oct 2026)",
+          "url": "https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-6",
           "quality": "primary"
         },
         {
@@ -1151,7 +1179,7 @@
           "quality": "primary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     },
     {
       "id": "fsb-stablecoins",
@@ -1312,7 +1340,8 @@
       "points": [
         "Annual Economic Report, 23 June 2026 (Chapter III): the BIS says current stablecoin designs fall short on key properties of money, particularly singleness. It calls for tokenisation to be brought into the two-tier monetary system anchored in central bank money.",
         "A 28 August 2026 speech set out the BIS view that tokenised deposits should carry most day-to-day and wholesale payments, with stablecoins in a complementary role.",
-        "An October 2026 BIS working paper by Harvard Business School authors finds that centralised crypto exchanges play a role similar to correspondent banks in stablecoin cross-border payments."
+        "An October 2026 BIS working paper by Harvard Business School authors finds that centralised crypto exchanges play a role similar to correspondent banks in stablecoin cross-border payments.",
+        "CPMI report, 29 October 2026: sets out four central bank roles (issuer, operator, overseer, catalyst) as tokenised deposits, stablecoins and non-bank PSPs develop, and supports settlement in central bank money for systemically important systems."
       ],
       "timeline": [
         {
@@ -1323,6 +1352,11 @@
         {
           "date": "2026-08-28",
           "label": "Speech on stablecoins and tokenised deposits",
+          "done": true
+        },
+        {
+          "date": "2026-10-29",
+          "label": "CPMI report on central bank money in the evolving payment system",
           "done": true
         }
       ],
@@ -1340,9 +1374,14 @@
           "label": "BIS — 'Pushing the monetary frontier' speech",
           "url": "https://www.bis.org/speeches/20260828-pushing-monetary-frontier-stablecoins-and-tokenised-deposits",
           "quality": "primary"
+        },
+        {
+          "label": "BIS/CPMI — roles of central banks and central bank money report",
+          "url": "https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system",
+          "quality": "primary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     }
   ],
   "updates": [
@@ -2013,6 +2052,251 @@
           "quality": "secondary"
         }
       ]
+    },
+    {
+      "id": "2026-10-30-fatf-october-plenary-outcomes",
+      "region": "global",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "authority": "FATF",
+      "type": "Supervisory decision",
+      "title": "FATF October 2026 plenary: four grey-list removals, black list unchanged",
+      "summary": "The first plenary under the UK presidency removed Bulgaria, Côte d'Ivoire, the DRC and Monaco from increased monitoring, with no additions, and left the call-for-action list unchanged. It also approved a report on scam-compound financial flows and launched a targeted review of virtual-asset implementation.",
+      "what_changed": [
+        "Grey list: Bulgaria, Côte d'Ivoire, the Democratic Republic of the Congo and Monaco removed after completing their action plans and on-site visits; no jurisdictions added. 18 remain under increased monitoring.",
+        "Call for action unchanged: countermeasures on DPRK and Iran; EDD on Myanmar. The FATF will consider countermeasures on Myanmar in February 2027 if there is no further progress.",
+        "Vietnam: the FATF flagged significant concern at the pace of progress, with all action-plan deadlines expired, and will consider next steps in February 2027 absent tangible improvement.",
+        "Virtual assets: targeted review of jurisdictions with materially important VA sectors and implementation gaps (e.g. no R.15 law in force), with results due in June and October 2027.",
+        "Approved a report on illicit flows linked to scam compounds, the first output of the presidency's fraud roadmap; publication was announced for the following week. Russia's membership suspension continues."
+      ],
+      "who": "Banks, PSPs, CASPs and other obliged entities applying geographic risk factors, EDD and correspondent-banking controls.",
+      "dates": "Plenary 28–30 October 2026; statements dated 30 October 2026. Next plenary February 2027.",
+      "tracker": "fatf",
+      "links": [
+        {
+          "label": "FATF — Outcomes of the plenary, 28–30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — Jurisdictions under increased monitoring, 30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — High-risk jurisdictions subject to a call for action, 30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — release on FATF list changes (30 Oct 2026)",
+          "url": "https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-6",
+          "quality": "primary"
+        },
+        {
+          "label": "Financial News (Korea) — FATF plenary outcomes",
+          "url": "https://en.fnnews.com/news/202611011119088302",
+          "quality": "secondary"
+        },
+        {
+          "label": "RegReportingDesk — October 2026 plenary list updates",
+          "url": "https://regreportingdesk.com/fatf-october-2026-plenary-list-updates/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-fatf-bulgaria-delisted",
+      "region": "eu",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "authority": "FATF",
+      "type": "Supervisory decision",
+      "title": "FATF removes Bulgaria from its grey list",
+      "summary": "The FATF removed Bulgaria from its list of jurisdictions under increased monitoring at the October 2026 plenary, following completion of its action plan and an on-site visit. Bulgaria, grey-listed in October 2023, returns to regular MONEYVAL follow-up.",
+      "what_changed": [
+        "Bulgaria is no longer under FATF increased monitoring as of 30 October 2026.",
+        "Bulgaria had been on the grey list since October 2023; it is assessed through MONEYVAL.",
+        "As an EU member state, Bulgaria does not appear on the Commission's high-risk third-country list, so there is no corresponding EU delegated-act change."
+      ],
+      "who": "Obliged entities that use FATF listings as a geographic risk factor for Bulgarian customers and counterparties.",
+      "dates": "Effective 30 October 2026.",
+      "tracker": "fatf",
+      "links": [
+        {
+          "label": "FATF — Jurisdictions under increased monitoring, 30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — release on FATF list changes (30 Oct 2026)",
+          "url": "https://www.fincen.gov/news/news-releases/financial-action-task-force-identifies-jurisdictions-anti-money-laundering-6",
+          "quality": "primary"
+        },
+        {
+          "label": "Zyphe — FATF grey list October 2026",
+          "url": "https://www.zyphe.com/resources/news/fatf-grey-list-october-2026-plenary-removals",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-fatf-us-mer-adopted",
+      "region": "us",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "authority": "FATF",
+      "type": "Milestone",
+      "title": "FATF adopts the mutual evaluation of the United States",
+      "summary": "The October 2026 plenary adopted the joint FATF–APG–CFATF mutual evaluation of the US AML/CFT/CPF regime. The report and ratings are not yet public; publication is scheduled for December 2026 after a quality and consistency review.",
+      "what_changed": [
+        "US mutual evaluation adopted at the 28–30 October 2026 plenary, alongside Mexico's.",
+        "No ratings or findings have been published; secondary reports state publication is planned for December 2026 following the quality and consistency review.",
+        "FinCEN's 30 October release on the FATF list changes does not refer to the US evaluation."
+      ],
+      "who": "US financial institutions, regulators and DNFBPs whose framework is assessed in the report.",
+      "dates": "Adopted October 2026; publication expected December 2026 (date not confirmed).",
+      "tracker": "fatf",
+      "links": [
+        {
+          "label": "FATF — Outcomes of the plenary, 28–30 October 2026",
+          "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-october-2026.html",
+          "quality": "primary"
+        },
+        {
+          "label": "Financial News (Korea) — FATF plenary outcomes",
+          "url": "https://en.fnnews.com/news/202611011119088302",
+          "quality": "secondary"
+        },
+        {
+          "label": "RegReportingDesk — October 2026 plenary list updates",
+          "url": "https://regreportingdesk.com/fatf-october-2026-plenary-list-updates/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-fincen-alert-foreign-agent-directed",
+      "region": "us",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "authority": "FinCEN",
+      "type": "Guidance",
+      "title": "FinCEN alert on foreign-agent-directed MSB payments (FIN-2026-Alert009)",
+      "summary": "FinCEN alerted institutions to cross-border payments that US principal MSBs make on the instruction of foreign agents, often from the MSB's own bank account. FinCEN identified more than $8 billion in suspicious payments of this kind in BSA reporting for 2021–2025.",
+      "what_changed": [
+        "Defines foreign-agent-directed transactions: payments by a US principal MSB to the foreign agent or a third party at the agent's instruction, which limits the bank's visibility of agent, recipient and purpose.",
+        "Red flags for MSBs and their banks include payments to third parties outside the agent's clearing agreement, regular flows to e.g. China, the UAE, Egypt and East Africa, vague purposes such as 'settlement', round amounts and unsupported documentation.",
+        "FinCEN notes the $8 billion figure may be overinclusive (attempted and completed, inbound and outbound, cumulative activity).",
+        "SAR key term FIN2026FOREIGNAGENT in field 2 and the narrative; also for Form 8300 (Box 1b). Reminds banks of correspondent due diligence under 31 CFR 1010.610."
+      ],
+      "who": "US principal MSBs, banks and other covered institutions that hold MSB accounts or process their cross-border payments.",
+      "dates": "Issued 30 October 2026; effective immediately.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "FinCEN — FIN-2026-Alert009 (PDF)",
+          "url": "https://www.fincen.gov/system/files/2026-10/FinCEN-Alert-Foreign-Agent-Directed-Transactions.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — press release, 30 October 2026",
+          "url": "https://www.fincen.gov/news/news-releases/fincen-issues-alert-and-notice-support-new-fraud-prevention-measures-minnesota",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-fincen-notice-npo-abuse",
+      "region": "us",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "authority": "FinCEN",
+      "type": "Notice",
+      "title": "FinCEN notice on abuse of charities and non-profits (FIN-2026-NTC2)",
+      "summary": "FinCEN set out typologies and red flags for three forms of NPO abuse — sham charities, NPO fraud and insider embezzlement — and asked institutions to tag related SARs. It states that the NPO sector as a whole is not to be treated as uniformly high-risk.",
+      "what_changed": [
+        "Typologies: sham charities channelling funds to terrorist groups; operators enriching themselves through phantom billing, inflated related-party contracts or diverted government funds; insiders embezzling from legitimate NPOs.",
+        "Red flags cover the NPO and its officers (no evident operations, shared addresses, unverifiable registration), sources of funds (unexplained spikes in donations or government reimbursements) and uses of funds (cash, structuring, large foreign transfers by US-focused NPOs).",
+        "SAR key term FIN2026NPO in field 2 and the narrative; also for Form 8300 (Box 1b).",
+        "Calls for a risk-based, entity-by-entity approach with proportionate controls, and restates federal policy against politicised or unlawful debanking."
+      ],
+      "who": "US banks, MSBs and other covered institutions with charity or NPO customers.",
+      "dates": "Issued 30 October 2026; effective immediately.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "FinCEN — FIN-2026-NTC2 (PDF)",
+          "url": "https://www.fincen.gov/system/files/2026-10/FinCEN-Notice-Illicit-Activity-Charities-Non-Profit-Org.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "FinCEN — press release, 30 October 2026",
+          "url": "https://www.fincen.gov/news/news-releases/fincen-issues-alert-and-notice-support-new-fraud-prevention-measures-minnesota",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-boe-tokenised-collateral-ccps",
+      "region": "uk",
+      "date": "2026-10-29",
+      "added": "2026-11-02",
+      "authority": "Bank of England",
+      "type": "Consultation",
+      "title": "Bank of England consults on CCPs accepting tokenised collateral",
+      "summary": "The Bank published a draft Supervisory Statement setting out how it would assess UK CCPs' proposals to accept tokenised forms of eligible collateral. It considers the existing framework is not a barrier, provided the collateral meets central clearing standards.",
+      "what_changed": [
+        "Tokenised collateral must remain valuable, transferable and realisable when needed, including under stress, to be acceptable.",
+        "Applies a 'same risk, same regulatory outcome' approach: different tokenised arrangements may meet the standard by different means.",
+        "The draft Supervisory Statement would clarify how the Bank assesses CCP applications involving tokenised collateral.",
+        "Framed under the Bank's secondary innovation objective for FMIs and its joint digital wholesale markets work with the FCA and HM Treasury."
+      ],
+      "who": "UK central counterparties and their clearing members; issuers and providers of tokenised collateral.",
+      "dates": "Published 29 October 2026; consultation closes 12 February 2027.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "Bank of England — news release",
+          "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+          "quality": "primary"
+        },
+        {
+          "label": "Bank of England — consultation paper",
+          "url": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral",
+          "quality": "primary"
+        },
+        {
+          "label": "Regulation Tomorrow — BoE consults on tokenised collateral for CCPs",
+          "url": "https://www.regulationtomorrow.com/2026/10/boe-publishes-consultation-on-supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-cpmi-central-bank-money-report",
+      "region": "global",
+      "date": "2026-10-29",
+      "added": "2026-11-02",
+      "authority": "CPMI (BIS)",
+      "type": "Report",
+      "title": "CPMI report on the roles of central banks and central bank money in evolving payments",
+      "summary": "The CPMI published an analytical report on how fast payments, non-bank PSPs, tokenised deposits, stablecoins and programmable platforms affect central banks. It sets out considerations for central banks rather than standards.",
+      "what_changed": [
+        "Identifies four central bank roles — issuer of money, payment system operator, overseer and catalyst — and suggests these policy choices be weighed together.",
+        "Supports settlement in central bank money for systemically important systems as the safest and most liquid settlement asset, and as the anchor for par convertibility between private payment instruments.",
+        "Notes that tokenised deposits, stablecoins and non-bank providers may bring efficiency and competition gains but create new credit, liquidity, operational and cyber interdependencies."
+      ],
+      "who": "Central banks and payment system overseers; relevant context for stablecoin issuers, banks offering tokenised deposits and non-bank PSPs.",
+      "dates": "Published 29 October 2026.",
+      "tracker": "bis-monetary",
+      "links": [
+        {
+          "label": "BIS/CPMI — The roles of central banks and central bank money in the evolving payment system",
+          "url": "https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system",
+          "quality": "primary"
+        }
+      ]
     }
   ],
   "upcoming": [
@@ -2076,6 +2360,13 @@
       "tracker": "digital-euro"
     },
     {
+      "date": "2026-12-31",
+      "approx": true,
+      "region": "us",
+      "title": "FATF mutual evaluation report of the US expected to be published (December 2026)",
+      "tracker": "fatf"
+    },
+    {
       "date": "2027-01-18",
       "region": "us",
       "title": "GENIUS Act and OCC final rule take effect",
@@ -2089,10 +2380,23 @@
       "tracker": "uk-crypto"
     },
     {
+      "date": "2027-02-12",
+      "region": "uk",
+      "title": "Bank of England consultation on tokenised collateral at CCPs closes",
+      "tracker": null
+    },
+    {
       "date": "2027-02-28",
       "region": "uk",
       "title": "FCA crypto gateway window for existing firms closes",
       "tracker": "uk-crypto"
+    },
+    {
+      "date": "2027-02-28",
+      "approx": true,
+      "region": "global",
+      "title": "FATF February 2027 plenary: Vietnam and Myanmar to be revisited",
+      "tracker": "fatf"
     },
     {
       "date": "2027-07-01",
