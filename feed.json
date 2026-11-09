@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:09:41Z",
-  "next_update": "2026-11-05",
-  "coverage_note": "Covers publications up to 2 November 2026. Updates run every Monday and Thursday.",
+  "generated_at": "2026-11-09T06:48:40Z",
+  "next_update": "2026-11-12",
+  "coverage_note": "Covers publications up to 9 November 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
       "id": "eu",
@@ -49,7 +49,7 @@
       "name": "European Securities and Markets Authority (ESMA)",
       "region": "eu",
       "url": "https://www.esma.europa.eu/press-news/esma-news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "amla",
@@ -63,21 +63,21 @@
       "name": "European Central Bank (ECB)",
       "region": "eu",
       "url": "https://www.ecb.europa.eu/press/pr/html/index.en.html",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "hmt",
       "name": "HM Treasury",
       "region": "uk",
       "url": "https://www.gov.uk/government/organisations/hm-treasury",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fca",
       "name": "Financial Conduct Authority (FCA)",
       "region": "uk",
       "url": "https://www.fca.org.uk/news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "boe",
@@ -91,7 +91,7 @@
       "name": "Payment Systems Regulator (PSR)",
       "region": "uk",
       "url": "https://www.psr.org.uk/news-and-updates/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "congress",
@@ -105,28 +105,28 @@
       "name": "US Treasury / OFAC",
       "region": "us",
       "url": "https://home.treasury.gov/news/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fincen",
       "name": "FinCEN",
       "region": "us",
       "url": "https://www.fincen.gov/news-room",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "occ",
       "name": "OCC",
       "region": "us",
       "url": "https://www.occ.gov/news-events/newsroom/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fed",
       "name": "Federal Reserve Board",
       "region": "us",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fdic",
@@ -140,7 +140,7 @@
       "name": "SEC",
       "region": "us",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "cftc",
@@ -161,28 +161,28 @@
       "name": "Financial Stability Board (FSB)",
       "region": "global",
       "url": "https://www.fsb.org/press/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "bis",
       "name": "Bank for International Settlements (BIS)",
       "region": "global",
       "url": "https://www.bis.org/press/index.htm",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "bcbs",
       "name": "Basel Committee on Banking Supervision",
       "region": "global",
       "url": "https://www.bis.org/bcbs/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "wolfsberg",
       "name": "Wolfsberg Group",
       "region": "global",
       "url": "https://wolfsberg-group.org/news",
-      "status": "checked"
+      "status": "unreachable"
     }
   ],
   "trackers": [
@@ -192,7 +192,7 @@
       "name": "PSD3 & the Payment Services Regulation",
       "short": "PSD3 / PSR",
       "stage": "agreed",
-      "stage_label": "Agreed — awaiting formal adoption",
+      "stage_label": "Council adopted at first reading — awaiting Parliament second reading",
       "summary": "Replaces PSD2 and the Second E-Money Directive. PSD3 (a directive, transposed nationally) covers authorisation and supervision; the PSR (a regulation, directly applicable) covers conduct of business, fraud prevention and open banking.",
       "points": [
         "Merges the payment institution and e-money institution regimes into one authorisation framework; existing licence holders will need to re-authorise.",
@@ -228,6 +228,11 @@
           "done": true
         },
         {
+          "date": "2026-10-29",
+          "label": "Council adopts PSD3 and PSR at first reading (statements ST 8535/1/26, ST 8543/1/26)",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "Official Journal publication expected (H2 2026, no date confirmed)",
           "done": false,
@@ -240,7 +245,7 @@
           "approx": true
         }
       ],
-      "next": "Parliament second-reading vote to approve the Council's first-reading position, then signature and Official Journal publication. As of 29 October 2026 the texts had not been published in the Official Journal.",
+      "next": "Parliament plenary vote approving the Council's first-reading positions (second reading), then signature and Official Journal publication. No plenary date had been published and no OJ publication reported as of 9 November 2026.",
       "authorities": [
         "European Commission",
         "Council of the EU",
@@ -267,9 +272,14 @@
           "label": "Regulation Tomorrow — Council publishes PSD3 first-reading position",
           "url": "https://www.regulationtomorrow.com/2026/10/psd3-council-of-eu-publishes-first-reading-position-with-view-to-adoption/",
           "quality": "secondary"
+        },
+        {
+          "label": "Regulation Tomorrow — Council adopts PSD3 and PSR at first reading",
+          "url": "https://www.regulationtomorrow.com/2026/11/psd3-and-psr-council-of-eu-adopts-texts-at-first-reading/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-29"
+      "updated": "2026-11-09"
     },
     {
       "id": "aml-package",
@@ -689,7 +699,8 @@
       "points": [
         "On 21 April 2026 HM Treasury confirmed that the PSR's objectives and powers, including the designation regime and powers under the Interchange Fee Regulation, will transfer to the FCA in substance.",
         "The transfer needs primary legislation. It is in the Financial Services and Markets Bill 2026, which is before Parliament.",
-        "A separate HM Treasury consultation, 'Modernising Payment Services Regulation', closed on 6 October 2026. It proposes moving detailed rules out of the PSRs/EMRs into FCA rule-making and asks how tokenised and agentic payments should be treated."
+        "A separate HM Treasury consultation, 'Modernising Payment Services Regulation', closed on 6 October 2026. It proposes moving detailed rules out of the PSRs/EMRs into FCA rule-making and asks how tokenised and agentic payments should be treated.",
+        "Separately, on 4 November 2026 the Bank of England published its response to the RPIB consultation on the future retail payments infrastructure; a Blueprint passes to the industry-led Delivery Company in spring 2027."
       ],
       "timeline": [
         {
@@ -712,6 +723,17 @@
           "date": "2026-10-06",
           "label": "Modernising Payment Services consultation closes",
           "done": true
+        },
+        {
+          "date": "2026-11-04",
+          "label": "Bank of England response to RPIB infrastructure consultation",
+          "done": true
+        },
+        {
+          "date": "2027-04",
+          "label": "RPIB Blueprint handed to the Delivery Company (spring 2027)",
+          "done": false,
+          "approx": true
         }
       ],
       "next": "The Bill continues through Parliament, and HM Treasury responds to the modernisation consultation.",
@@ -730,9 +752,14 @@
           "label": "GOV.UK — Modernising Payment Services Regulation consultation",
           "url": "https://www.gov.uk/government/consultations/modernising-payment-services-regulation/modernising-payment-services-regulation-consultation",
           "quality": "primary"
+        },
+        {
+          "label": "Bank of England — Response to the RPIB consultation",
+          "url": "https://www.bankofengland.co.uk/paper/2026/cp/response-to-the-rpib-consultation",
+          "quality": "primary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-09"
     },
     {
       "id": "uk-mlrs",
@@ -1059,7 +1086,8 @@
         "Proposed on 7 April 2026, fully replacing FinCEN's July 2024 proposal. Comments closed on 9 June 2026.",
         "The proposal envisages a 12-month implementation period after the final rule.",
         "Related: the AML rule for investment advisers is delayed to 1 January 2028, and FinCEN intends to revisit it. On 11 August 2026 FinCEN finalised a narrower Corporate Transparency Act beneficial-ownership reporting rule. This does not remove banks' CDD obligations.",
-        "On 12 June 2026 FinCEN updated its Section 314(b) fact sheet to state that information sharing on fraud is covered by the safe harbour."
+        "On 12 June 2026 FinCEN updated its Section 314(b) fact sheet to state that information sharing on fraud is covered by the safe harbour.",
+        "On 6 November 2026 FinCEN and the Fed withdrew their 2020 proposal to cut the funds-transfer recordkeeping and travel rule threshold to USD 250; the USD 3,000 threshold stays."
       ],
       "timeline": [
         {
@@ -1103,7 +1131,7 @@
           "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-09"
     },
     {
       "id": "fatf",
@@ -1115,7 +1143,7 @@
       "summary": "FATF sets the 40 Recommendations and publishes its 'black' (call for action) and 'grey' (increased monitoring) lists after each plenary (February, June, October). Country mutual evaluation reports (MERs) are filed under the relevant region in this app.",
       "points": [
         "October 2026 plenary (28–30 October, Paris; first under the UK presidency of Giles Thomson): Bulgaria, Côte d'Ivoire, the DRC and Monaco removed from the grey list, no additions, leaving 18 jurisdictions. The call-for-action list is unchanged: Iran and DPRK (countermeasures), Myanmar (EDD).",
-        "October 2026 plenary also adopted the US and Mexico mutual evaluations (publication expected December 2026), approved a report on scam-compound financial flows, and launched a targeted review of jurisdictions with material virtual-asset sectors (results June and October 2027).",
+        "October 2026 plenary also adopted the US and Mexico mutual evaluations (publication expected December 2026), approved a report on scam-compound financial flows (published 5 November 2026), and launched a targeted review of jurisdictions with material virtual-asset sectors (results June and October 2027).",
         "Vietnam was warned over slow progress and Myanmar could face countermeasures; both are to be revisited in February 2027.",
         "June 2026 plenary: Iraq and Bosnia and Herzegovina were added to the grey list, and Algeria and Namibia were removed. June also saw an update to Recommendation 6 to protect humanitarian assistance, and a consultation on R.16 payment-transparency guidance."
       ],
@@ -1136,6 +1164,11 @@
           "done": true
         },
         {
+          "date": "2026-11-05",
+          "label": "Scam-compounds report published",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "US and Mexico mutual evaluation reports expected to be published",
           "done": false,
@@ -1148,7 +1181,7 @@
           "approx": true
         }
       ],
-      "next": "Publication of the US and Mexico MERs (expected December 2026) and of the scam-compounds report; the February 2027 plenary will revisit Vietnam and possible countermeasures on Myanmar.",
+      "next": "Publication of the US and Mexico MERs (expected December 2026); the February 2027 plenary will revisit Vietnam and possible countermeasures on Myanmar.",
       "authorities": [
         "FATF"
       ],
@@ -1177,9 +1210,14 @@
           "label": "FATF — black and grey lists",
           "url": "https://www.fatf-gafi.org/en/countries/black-and-grey-lists.html",
           "quality": "primary"
+        },
+        {
+          "label": "FATF — Combating illicit financial flows linked to scam compounds",
+          "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/combating-illicit-financial-flows-linked-to-scam-compounds.html",
+          "quality": "primary"
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-09"
     },
     {
       "id": "fsb-stablecoins",
@@ -2297,6 +2335,202 @@
           "quality": "primary"
         }
       ]
+    },
+    {
+      "id": "2026-10-29-council-adopts-psd3-psr-first-reading",
+      "region": "eu",
+      "date": "2026-10-29",
+      "added": "2026-11-09",
+      "authority": "Council of the EU",
+      "type": "Legislative step",
+      "title": "Council adopts PSD3 and the PSR at first reading",
+      "summary": "The Council formally adopted its first-reading positions on PSD3 and the Payment Services Regulation, on the texts it published on 23 October. Both acts now need the European Parliament's approval at second reading before signature and Official Journal publication.",
+      "what_changed": [
+        "Council statements confirming first-reading adoption were published on 29 October 2026: ST 8535/1/26 (PSD3, procedure 2023/0209(COD)) and ST 8543/1/26 (PSR, procedure 2023/0210(COD)).",
+        "Next step is a Parliament plenary vote approving the Council's positions (early second-reading agreement); no plenary date had been published as of this update.",
+        "No Official Journal publication had been reported; application dates run from entry into force (most PSR rules about 21 months later)."
+      ],
+      "who": "Banks, payment and e-money institutions, AIS/PIS providers and other PSPs in the EU.",
+      "dates": "Council statements published 29 October 2026; Parliament second-reading vote and OJ publication pending.",
+      "tracker": "psd3-psr",
+      "links": [
+        {
+          "label": "Council — statement on PSD3 first-reading adoption (ST 8535/1/26 ADD 1)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-8535-2026-REV-1-ADD-1/en/pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "Council — statement on PSR first-reading adoption (ST 8543/1/26 ADD 1)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-8543-2026-REV-1-ADD-1/en/pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "Regulation Tomorrow — PSD3 and PSR: Council adopts texts at first reading",
+          "url": "https://www.regulationtomorrow.com/2026/11/psd3-and-psr-council-of-eu-adopts-texts-at-first-reading/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Slaughter and May — Financial Regulation Weekly Bulletin, 5 November 2026",
+          "url": "https://www.slaughterandmay.com/insights/financial-regulation-weekly-bulletin/financial-regulation-weekly-bulletin-5-november-2026/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-boe-rpib-consultation-response",
+      "region": "uk",
+      "date": "2026-11-04",
+      "added": "2026-11-09",
+      "authority": "Bank of England",
+      "type": "Consultation response",
+      "title": "Bank of England responds to the RPIB consultation on future retail payments infrastructure",
+      "summary": "The Bank published its response to the Retail Payments Infrastructure Board consultation on the design of the UK's next-generation retail payments infrastructure, replacing Faster Payments and Bacs. Co-creation with industry runs to spring 2027, when a Blueprint passes to the industry-led Delivery Company.",
+      "what_changed": [
+        "121 responses (110 organisations, 11 individuals) broadly supported the design principles and a layered architecture with a relatively thin core.",
+        "Proposes a single modular core run as a shared utility, a common access foundation and an ISO 20022 messaging baseline, with settlement in central bank money via RTGS.",
+        "Treats fraud and financial-crime prevention as a fundamental design consideration: respondents backed richer structured data, stronger payee checks and distinguishing identity, authority and intent for agentic and delegated payments.",
+        "Respondents supported interoperability between forms of money at par, including tokenised money, and strongly preferred phased migration over a 'big bang' (Bacs and Direct Debit highlighted)."
+      ],
+      "who": "UK PSPs, payment system participants, overlay and fraud-prevention service providers.",
+      "dates": "Published 4 November 2026. Consultation ran 25 June to 11 September 2026. Blueprint to the Delivery Company in spring 2027.",
+      "tracker": "uk-payments-reform",
+      "links": [
+        {
+          "label": "Bank of England — Response to the RPIB consultation on the Design of the Future Retail Payments Infrastructure",
+          "url": "https://www.bankofengland.co.uk/paper/2026/cp/response-to-the-rpib-consultation",
+          "quality": "primary"
+        },
+        {
+          "label": "Regulation Tomorrow — BoE response to the RPIB consultation",
+          "url": "https://www.regulationtomorrow.com/2026/11/boe-response-to-the-rpib-consultation-on-the-design-of-the-future-retail-payments-infrastructure/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-fatf-scam-compounds-report",
+      "region": "global",
+      "date": "2026-11-05",
+      "added": "2026-11-09",
+      "authority": "FATF",
+      "type": "Report",
+      "title": "FATF publishes report on illicit financial flows linked to scam compounds",
+      "summary": "The FATF published the scam-compounds report approved at its October plenary, setting out how criminal networks move fraud proceeds and six principles for disrupting them. It draws on nearly 120 case studies from more than 60 jurisdictions.",
+      "what_changed": [
+        "Identifies money-mule accounts, cash, informal value transfer, virtual assets (including compound-run OTC desks) and instant payments as the main laundering channels; instant payments can move victim funds out within minutes.",
+        "Six principles: target networks, disrupt financial flows, share information across sectors, speed up cross-border action, protect victims, and adapt enforcement as operations change.",
+        "Points to early-warning indicators before victims pay, such as fraudulent job adverts, malicious domains, suspicious phone numbers and recruitment activity.",
+        "Urges authorities to look past individual compounds and transactions to leaders, financial facilitators and technology providers. FATF work with public and private partners continues to February 2027."
+      ],
+      "who": "Banks, PSPs and VASPs (fraud and mule-account controls, STR reporting), FIUs and law enforcement.",
+      "dates": "Published 5 November 2026 (date from secondary reporting; the FATF site could not be read on this run).",
+      "tracker": "fatf",
+      "links": [
+        {
+          "label": "FATF — Combating end-to-end illicit financial flows linked to scam compounds",
+          "url": "https://www.fatf-gafi.org/en/publications/Methodsandtrends/combating-illicit-financial-flows-linked-to-scam-compounds.html",
+          "quality": "primary"
+        },
+        {
+          "label": "FATF — news release on the scam-compounds report",
+          "url": "https://www.fatf-gafi.org/en/news/combating-illicit-financial-flows-linked-to-scam-compounds.html",
+          "quality": "primary"
+        },
+        {
+          "label": "AML Watcher — FATF urges global action to disrupt scam compounds",
+          "url": "https://amlwatcher.com/news/fatf-urges-global-action-to-disrupt-scam-compounds/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-fincen-mexc-9714-order",
+      "region": "us",
+      "date": "2026-11-06",
+      "added": "2026-11-09",
+      "authority": "FinCEN",
+      "type": "Special measure (order)",
+      "title": "FinCEN cuts MEXC Global off from US financial institutions under section 9714",
+      "summary": "FinCEN found the Seychelles-incorporated CVC exchange MEXC Global to be of primary money laundering concern in connection with Russian illicit finance and imposed a special measure prohibiting covered US financial institutions from certain transmittals of funds, including CVC, involving it.",
+      "what_changed": [
+        "Legal basis: section 9714(a) of the Combating Russian Money Laundering Act, as amended, with 31 U.S.C. 5318A. Covers MEXC Global's non-US subsidiaries, branches and successors; US-located affiliates are excluded.",
+        "FinCEN cites about USD 16.7 billion in funds linked to Russian illicit finance and other illicit activity (May 2021 to May 2026), including exposure to sanctioned entities, the A7 Network and A7A5 token, Iranian actors and ransomware.",
+        "Effective 30 days after Federal Register publication; the order had been submitted but not yet published when reviewed for this update."
+      ],
+      "who": "US banks, MSBs, broker-dealers and other covered financial institutions, including CVC businesses; correspondent and VASP counterparties of MEXC.",
+      "dates": "Announced 6 November 2026; effective 30 days after Federal Register publication.",
+      "links": [
+        {
+          "label": "FinCEN — Order imposing special measure on MEXC Global (section 9714)",
+          "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "The Block — Treasury cuts off MEXC Global",
+          "url": "https://theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-fincen-fed-withdraw-250-threshold-nprm",
+      "region": "us",
+      "date": "2026-11-06",
+      "added": "2026-11-09",
+      "authority": "FinCEN / Federal Reserve",
+      "type": "Withdrawal of proposed rule",
+      "title": "FinCEN and the Fed withdraw 2020 proposal to cut the funds-transfer recordkeeping and travel rule threshold",
+      "summary": "FinCEN and the Federal Reserve Board withdrew their October 2020 proposal to lower the threshold for cross-border funds-transfer recordkeeping and travel rule obligations from USD 3,000 to USD 250 and to clarify that the rules apply to CVC transactions.",
+      "what_changed": [
+        "The existing USD 3,000 threshold under the recordkeeping and travel rules remains in place.",
+        "FinCEN cited the time elapsed since the proposal, changes in the CVC sector and the value of further public input; any future CVC-related amendments would be considered afresh.",
+        "Follows FinCEN's October 2026 withdrawal of two other proposed CVC rules, including the unhosted-wallet proposal."
+      ],
+      "who": "US banks and non-bank financial institutions, including MSBs and CVC businesses, that originate, intermediate or receive funds transfers.",
+      "dates": "Announced 6 November 2026.",
+      "tracker": "bsa-reform",
+      "links": [
+        {
+          "label": "FinCEN — announcement of withdrawal of proposed recordkeeping and travel rule changes",
+          "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+          "quality": "primary"
+        },
+        {
+          "label": "Law360 — FinCEN scraps cross-border recordkeeping plan",
+          "url": "https://www.law360.com/articles/2547431/fincen-scraps-unpopular-cross-border-recordkeeping-plan",
+          "quality": "secondary"
+        },
+        {
+          "label": "The Block — US Treasury walks back travel rule proposal",
+          "url": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-ofac-canadian-msbs-iran-digital-assets",
+      "region": "us",
+      "date": "2026-11-06",
+      "added": "2026-11-09",
+      "authority": "US Treasury / OFAC",
+      "type": "Sanctions designation",
+      "title": "OFAC designates eight Canada-based MSBs over Iran-linked digital asset transfers",
+      "summary": "OFAC designated eight Canada-based money services businesses under E.O. 13902 for exchanging Iranian rials and other currencies for digital assets and transacting with sanctioned Iranian exchanges and IRGC-linked addresses. It is the third round in 2026 targeting Iran's digital asset sector.",
+      "what_changed": [
+        "SDN entries carry the E.O. 13902 secondary-sanctions risk warning; OFAC points to FAQs 1250 and 1257 on Iranian digital asset exchanges.",
+        "Six TRON addresses linked to four of the designees were added to the SDN List.",
+        "OFAC alleges some designees moved funds to or from terrorism-linked addresses and laundered drug proceeds through cash-to-crypto conversion.",
+        "Earlier rounds: 2 June 2026 (Nobitex, Wallex, Bitpin, Ramzinex) and 7 August 2026."
+      ],
+      "who": "VASPs, MSBs and banks screening counterparties and wallet addresses, including non-US firms exposed to secondary sanctions.",
+      "dates": "Designated 6 November 2026.",
+      "links": [
+        {
+          "label": "TRM Labs — OFAC designates eight Canadian MSBs",
+          "url": "https://www.trmlabs.com/resources/blog/ofac-designates-eight-canadian-money-services-businesses-under-operation-economic-outcast",
+          "quality": "lower"
+        }
+      ]
     }
   ],
   "upcoming": [
@@ -2421,6 +2655,13 @@
       "region": "us",
       "title": "FinCEN investment adviser AML rule effective (delayed)",
       "tracker": "bsa-reform"
+    },
+    {
+      "date": "2027-04-30",
+      "approx": true,
+      "region": "uk",
+      "title": "RPIB Blueprint for future retail payments infrastructure handed to the Delivery Company (spring 2027)",
+      "tracker": "uk-payments-reform"
     }
   ]
 }
