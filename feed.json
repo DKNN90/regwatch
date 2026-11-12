@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T06:48:40Z",
-  "next_update": "2026-11-12",
+  "generated_at": "2026-11-12T06:51:33Z",
+  "next_update": "2026-11-16",
   "coverage_note": "Covers publications up to 9 November 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
@@ -49,21 +49,21 @@
       "name": "European Securities and Markets Authority (ESMA)",
       "region": "eu",
       "url": "https://www.esma.europa.eu/press-news/esma-news",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "amla",
       "name": "Anti-Money Laundering Authority (AMLA)",
       "region": "eu",
       "url": "https://www.amla.europa.eu/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "ecb",
       "name": "European Central Bank (ECB)",
       "region": "eu",
       "url": "https://www.ecb.europa.eu/press/pr/html/index.en.html",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "hmt",
@@ -84,7 +84,7 @@
       "name": "Bank of England / PRA",
       "region": "uk",
       "url": "https://www.bankofengland.co.uk/news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "psr",
@@ -105,14 +105,14 @@
       "name": "US Treasury / OFAC",
       "region": "us",
       "url": "https://home.treasury.gov/news/press-releases",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fincen",
       "name": "FinCEN",
       "region": "us",
       "url": "https://www.fincen.gov/news-room",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "occ",
@@ -147,14 +147,14 @@
       "name": "CFTC",
       "region": "us",
       "url": "https://www.cftc.gov/PressRoom/PressReleases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fatf",
       "name": "Financial Action Task Force (FATF)",
       "region": "global",
       "url": "https://www.fatf-gafi.org/en/publications.html",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fsb",
@@ -168,14 +168,14 @@
       "name": "Bank for International Settlements (BIS)",
       "region": "global",
       "url": "https://www.bis.org/press/index.htm",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "bcbs",
       "name": "Basel Committee on Banking Supervision",
       "region": "global",
       "url": "https://www.bis.org/bcbs/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "wolfsberg",
@@ -369,7 +369,8 @@
       "points": [
         "National grandfathering for unauthorised CASPs has ended. ESMA has told firms without MiCA authorisation to put wind-down plans into effect.",
         "On 14 October 2026 the EBA classified USDC (issued by Circle Internet Financial Europe SAS) as the first 'significant' EMT. Significance brings direct EBA supervision and stricter requirements. At that point 45 EMTs had been notified in the EU.",
-        "Supervision of CASPs may move to ESMA. See the separate Market Integration & Supervision Package tracker."
+        "Supervision of CASPs may move to ESMA. See the separate Market Integration & Supervision Package tracker.",
+        "ESMA's opinion of 8 October 2026 expects CASPs to stop services relating to non-MiCA-compliant ARTs and EMTs for EU clients, with legacy exposures remediated within three months."
       ],
       "timeline": [
         {
@@ -409,9 +410,14 @@
           "label": "Latham & Watkins — MiCA requirements tracker",
           "url": "https://www.lw.com/en/markets-in-crypto-assets-regulation-tracker/mica-requirements-casps",
           "quality": "secondary"
+        },
+        {
+          "label": "ESMA — opinion on unauthorised stablecoins (8 Oct 2026)",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised",
+          "quality": "primary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-12"
     },
     {
       "id": "misp",
@@ -506,13 +512,18 @@
           "done": true
         },
         {
+          "date": "2026-11-05",
+          "label": "Further interinstitutional negotiations (sanctioned persons, merchant fees, PSP designation); no agreement reported",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "Target to conclude legislative process",
           "done": false,
           "approx": true
         }
       ],
-      "next": "Next political trilogue on 5 November 2026; negotiators aim to conclude by the end of 2026.",
+      "next": "The Irish Presidency is aiming for a political agreement on 18 November 2026 if possible; open issues include merchant fees and services for persons sanctioned by third countries.",
       "authorities": [
         "European Parliament",
         "Council of the EU",
@@ -534,9 +545,14 @@
           "label": "Agence Europe — fifth digital euro trilogue",
           "url": "https://agenceurope.eu/en/bulletin/article/13964/26/digital-euro-eu-co-legislators-examine-anti-money-laundering-offline-payments-usage-fees",
           "quality": "secondary"
+        },
+        {
+          "label": "Agence Europe — negotiations intensify on digital euro (6 Nov 2026)",
+          "url": "https://agenceurope.eu/en/bulletin/article/13977/18/negotiations-intensify-between-european-parliament-and-eu-council-on-digital-euro",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-29"
+      "updated": "2026-11-12"
     },
     {
       "id": "uk-crypto",
@@ -2531,6 +2547,83 @@
           "quality": "lower"
         }
       ]
+    },
+    {
+      "id": "2026-10-08-esma-unauthorised-stablecoins",
+      "region": "eu",
+      "date": "2026-10-08",
+      "added": "2026-11-12",
+      "authority": "ESMA",
+      "type": "Supervisory opinion",
+      "title": "ESMA opinion on CASP services involving non-MiCA-compliant stablecoins",
+      "summary": "ESMA set out supervisory expectations for crypto-asset services involving ARTs and EMTs that do not comply with MiCA (opinion ESMA75-113276571-1742).",
+      "what_changed": [
+        "MiCA-authorised CASPs should stop providing any crypto-asset service, alone or combined, relating to non-compliant stablecoins for EU clients.",
+        "NCAs should ensure market participants do not maintain, introduce or facilitate access to such tokens; CASPs should have controls stopping clients acquiring or increasing exposure.",
+        "Pre-existing exposures should be remediated as soon as possible and within three months of the opinion's publication.",
+        "Any continuing service is limited to liquidation, conversion, withdrawal, transfer or safekeeping, and must be time-limited, risk-based and closely supervised."
+      ],
+      "who": "MiCA-authorised CASPs and national competent authorities.",
+      "dates": "Published 8 October 2026; remediation within three months of publication.",
+      "tracker": "mica",
+      "links": [
+        {
+          "label": "ESMA — supervisory expectations on services related to unauthorised stablecoins",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-ofac-prince-group-scam-networks",
+      "region": "us",
+      "date": "2026-11-05",
+      "added": "2026-11-12",
+      "authority": "US Treasury / OFAC",
+      "type": "Sanctions",
+      "title": "OFAC designates 46 targets in Prince Group scam network and its corporate infrastructure",
+      "summary": "OFAC designated four individuals and 41 entities supporting the Prince Group transnational criminal organisation, and a Malaysian individual managing Africa-based scammers.",
+      "what_changed": [
+        "45 targets were designated under E.O. 13581 (transnational criminal organisations) and one under E.O. 13694 (malicious cyber-enabled activity).",
+        "Treasury describes the network's use of offshore holding companies, BVI shelf companies, nominee directors, corporate service providers, Hong Kong money-lending firms and digital asset transactions.",
+        "Jurisdictions named include Cambodia, Hong Kong, the British Virgin Islands, St Lucia, Türkiye and Macao.",
+        "Coordinated with the FBI, DOJ's Scam Center Strike Force, the BVI Financial Investigation Agency and the UK FCDO; framed as implementing E.O. 14390 on cybercrime and fraud."
+      ],
+      "who": "US persons and institutions screening against the SDN List; firms with exposure to corporate structures in the named jurisdictions.",
+      "dates": "Effective 5 November 2026.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "US Treasury — Treasury targets global scam networks (sb0683)",
+          "url": "https://home.treasury.gov/news/press-releases/sb0683",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-digital-euro-trilogue",
+      "region": "eu",
+      "date": "2026-11-05",
+      "added": "2026-11-12",
+      "authority": "Council of the EU / European Parliament",
+      "type": "Negotiation",
+      "title": "Digital euro negotiations continue; Irish Presidency targets political agreement on 18 November",
+      "summary": "Council and Parliament negotiators met on 5 November 2026 without reported agreement. According to Agence Europe, the Irish Presidency is aiming for a political agreement on 18 November if possible.",
+      "what_changed": [
+        "Negotiators discussed access to digital euro services for persons sanctioned by third countries; the co-legislators are awaiting Commission guidance and the issue remains open.",
+        "Merchant fees remain unresolved: France opposes the Parliament's clause that merchants should be no worse off.",
+        "Technical work on designating digital euro PSPs continues."
+      ],
+      "who": "PSPs that would distribute the digital euro; merchants accepting it.",
+      "dates": "Target date for political agreement: 18 November 2026 (Presidency aim, not confirmed by a primary source).",
+      "tracker": "digital-euro",
+      "links": [
+        {
+          "label": "Agence Europe — negotiations intensify on digital euro (6 Nov 2026)",
+          "url": "https://agenceurope.eu/en/bulletin/article/13977/18/negotiations-intensify-between-european-parliament-and-eu-council-on-digital-euro",
+          "quality": "secondary"
+        }
+      ]
     }
   ],
   "upcoming": [
@@ -2662,6 +2755,13 @@
       "region": "uk",
       "title": "RPIB Blueprint for future retail payments infrastructure handed to the Delivery Company (spring 2027)",
       "tracker": "uk-payments-reform"
+    },
+    {
+      "date": "2026-11-18",
+      "approx": true,
+      "region": "eu",
+      "title": "Digital euro: Irish Presidency target for political agreement",
+      "tracker": "digital-euro"
     }
   ]
 }
