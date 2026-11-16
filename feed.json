@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T06:51:33Z",
-  "next_update": "2026-11-16",
-  "coverage_note": "Covers publications up to 9 November 2026. Updates run every Monday and Thursday.",
+  "generated_at": "2026-11-16T06:55:41Z",
+  "next_update": "2026-11-19",
+  "coverage_note": "Covers publications up to 16 November 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
       "id": "eu",
@@ -35,7 +35,7 @@
       "name": "European Commission / Council / Parliament",
       "region": "eu",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "eba",
@@ -70,28 +70,28 @@
       "name": "HM Treasury",
       "region": "uk",
       "url": "https://www.gov.uk/government/organisations/hm-treasury",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fca",
       "name": "Financial Conduct Authority (FCA)",
       "region": "uk",
       "url": "https://www.fca.org.uk/news",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "boe",
       "name": "Bank of England / PRA",
       "region": "uk",
       "url": "https://www.bankofengland.co.uk/news",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "psr",
       "name": "Payment Systems Regulator (PSR)",
       "region": "uk",
       "url": "https://www.psr.org.uk/news-and-updates/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "congress",
@@ -119,35 +119,35 @@
       "name": "OCC",
       "region": "us",
       "url": "https://www.occ.gov/news-events/newsroom/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fed",
       "name": "Federal Reserve Board",
       "region": "us",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fdic",
       "name": "FDIC",
       "region": "us",
       "url": "https://www.fdic.gov/news/press-releases",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "sec",
       "name": "SEC",
       "region": "us",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "cftc",
       "name": "CFTC",
       "region": "us",
       "url": "https://www.cftc.gov/PressRoom/PressReleases",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "fatf",
@@ -161,7 +161,7 @@
       "name": "Financial Stability Board (FSB)",
       "region": "global",
       "url": "https://www.fsb.org/press/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "bis",
@@ -182,7 +182,7 @@
       "name": "Wolfsberg Group",
       "region": "global",
       "url": "https://wolfsberg-group.org/news",
-      "status": "unreachable"
+      "status": "checked"
     }
   ],
   "trackers": [
@@ -714,7 +714,7 @@
       "summary": "The government is abolishing the Payment Systems Regulator and moving its functions into the FCA. In parallel, it is consulting on bringing the Payment Services Regulations 2017 and E-Money Regulations 2011 into the FSMA framework.",
       "points": [
         "On 21 April 2026 HM Treasury confirmed that the PSR's objectives and powers, including the designation regime and powers under the Interchange Fee Regulation, will transfer to the FCA in substance.",
-        "The transfer needs primary legislation. It is in the Financial Services and Markets Bill 2026, which is before Parliament.",
+        "The transfer needs primary legislation. It is in the Financial Services and Markets Bill [HL], which passed its Commons second reading on 10 November 2026 and moves to Committee stage.",
         "A separate HM Treasury consultation, 'Modernising Payment Services Regulation', closed on 6 October 2026. It proposes moving detailed rules out of the PSRs/EMRs into FCA rule-making and asks how tokenised and agentic payments should be treated.",
         "Separately, on 4 November 2026 the Bank of England published its response to the RPIB consultation on the future retail payments infrastructure; a Blueprint passes to the industry-led Delivery Company in spring 2027."
       ],
@@ -746,13 +746,18 @@
           "done": true
         },
         {
+          "date": "2026-11-10",
+          "label": "Commons second reading of the Financial Services and Markets Bill",
+          "done": true
+        },
+        {
           "date": "2027-04",
           "label": "RPIB Blueprint handed to the Delivery Company (spring 2027)",
           "done": false,
           "approx": true
         }
       ],
-      "next": "The Bill continues through Parliament, and HM Treasury responds to the modernisation consultation.",
+      "next": "Commons Committee stage of the Bill (no date announced), and HM Treasury's response to the modernisation consultation.",
       "authorities": [
         "HM Treasury",
         "FCA",
@@ -773,9 +778,14 @@
           "label": "Bank of England — Response to the RPIB consultation",
           "url": "https://www.bankofengland.co.uk/paper/2026/cp/response-to-the-rpib-consultation",
           "quality": "primary"
+        },
+        {
+          "label": "Regulation Tomorrow — FSM Bill second reading in the Commons",
+          "url": "https://www.regulationtomorrow.com/2026/11/financial-services-and-markets-bill-second-reading-in-commons/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-16"
     },
     {
       "id": "uk-mlrs",
@@ -1191,10 +1201,9 @@
           "approx": true
         },
         {
-          "date": "2027-02",
-          "label": "February plenary: Vietnam and Myanmar to be revisited",
-          "done": false,
-          "approx": true
+          "date": "2027-02-22",
+          "label": "February plenary (22–26 Feb 2027): Vietnam and Myanmar to be revisited",
+          "done": false
         }
       ],
       "next": "Publication of the US and Mexico MERs (expected December 2026); the February 2027 plenary will revisit Vietnam and possible countermeasures on Myanmar.",
@@ -1233,7 +1242,7 @@
           "quality": "primary"
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-16"
     },
     {
       "id": "fsb-stablecoins",
@@ -1316,7 +1325,7 @@
           "approx": true
         }
       ],
-      "next": "Outcome of the targeted review.",
+      "next": "Outcome of the targeted review. The Committee said on 1 October 2026 that it expects to give an update by the end of the year; its next meeting is listed for 18 November 2026.",
       "authorities": [
         "Basel Committee (BIS)",
         "National prudential regulators"
@@ -1333,7 +1342,7 @@
           "quality": "primary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-16"
     },
     {
       "id": "wolfsberg",
@@ -2471,14 +2480,19 @@
       "what_changed": [
         "Legal basis: section 9714(a) of the Combating Russian Money Laundering Act, as amended, with 31 U.S.C. 5318A. Covers MEXC Global's non-US subsidiaries, branches and successors; US-located affiliates are excluded.",
         "FinCEN cites about USD 16.7 billion in funds linked to Russian illicit finance and other illicit activity (May 2021 to May 2026), including exposure to sanctioned entities, the A7 Network and A7A5 token, Iranian actors and ransomware.",
-        "Effective 30 days after Federal Register publication; the order had been submitted but not yet published when reviewed for this update."
+        "Published in the Federal Register on 10 November 2026 as a final rule (91 FR 72420, FR doc 2026-22962); effective 10 December 2026."
       ],
       "who": "US banks, MSBs, broker-dealers and other covered financial institutions, including CVC businesses; correspondent and VASP counterparties of MEXC.",
-      "dates": "Announced 6 November 2026; effective 30 days after Federal Register publication.",
+      "dates": "Announced 6 November 2026; published 10 November 2026; effective 10 December 2026.",
       "links": [
         {
           "label": "FinCEN — Order imposing special measure on MEXC Global (section 9714)",
           "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "Federal Register — Imposition of special measure prohibiting the transmittal of funds involving MEXC Global",
+          "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global",
           "quality": "primary"
         },
         {
@@ -2503,12 +2517,17 @@
         "Follows FinCEN's October 2026 withdrawal of two other proposed CVC rules, including the unhosted-wallet proposal."
       ],
       "who": "US banks and non-bank financial institutions, including MSBs and CVC businesses, that originate, intermediate or receive funds transfers.",
-      "dates": "Announced 6 November 2026.",
+      "dates": "Announced 6 November 2026; withdrawal published in the Federal Register and effective 9 November 2026 (91 FR 70824).",
       "tracker": "bsa-reform",
       "links": [
         {
           "label": "FinCEN — announcement of withdrawal of proposed recordkeeping and travel rule changes",
           "url": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+          "quality": "primary"
+        },
+        {
+          "label": "Federal Register (govinfo) — withdrawal notice, FR doc 2026-22809 (PDF)",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/pdf/2026-22809.pdf",
           "quality": "primary"
         },
         {
@@ -2624,6 +2643,202 @@
           "quality": "secondary"
         }
       ]
+    },
+    {
+      "id": "2026-11-09-etsg-call-for-nominations",
+      "region": "eu",
+      "date": "2026-11-09",
+      "added": "2026-11-16",
+      "authority": "ECB / European Commission / ESMA",
+      "type": "Call for nominations",
+      "title": "EU authorities seek members for a European Tokenisation Standards Group",
+      "summary": "The ECB, the Commission and ESMA opened nominations for an industry-chaired European Tokenisation Standards Group (ETSG) to develop common market standards for interoperable DLT-based finance in the EU.",
+      "what_changed": [
+        "The group's mandate is end-to-end interoperability in DLT-based markets, through agreed market standards and a single rulebook for settling and holding DLT financial instruments across DLT infrastructures, consistent with existing industry standards.",
+        "It is to build a framework for monitoring compliance with those standards and may recommend how EU authorities could encourage compliance.",
+        "Industry participants chair the group; the ECB, Commission and ESMA act as observers and select members, aiming for balance by geography and stakeholder type.",
+        "Nominations close on 27 November 2026; work is expected to start in January 2027."
+      ],
+      "who": "CSDs and DLT market infrastructures, banks, investment firms, fintechs, technology providers and EU trade associations active in tokenisation.",
+      "dates": "Published 9 November 2026; nominations close 27 November 2026; work starts January 2027.",
+      "links": [
+        {
+          "label": "ESMA — EU seeks nominations for stakeholder group on tokenisation standards",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/eu-seeks-nominations-stakeholder-group-tokenisation-standards-finance",
+          "quality": "primary"
+        },
+        {
+          "label": "ESMA — ETSG background and call for nominations (PDF)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-11/ETSG_-_Background_and_Call_for_nominations.pdf",
+          "quality": "primary"
+        },
+        {
+          "label": "ESMA — Mandate of the European Tokenisation Standards Group (PDF)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-11/Mandate_of_the_European_Tokenisation_Standards_Group.pdf",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-uk-fsm-bill-commons-second-reading",
+      "region": "uk",
+      "date": "2026-11-10",
+      "added": "2026-11-16",
+      "authority": "UK Parliament / HM Treasury",
+      "type": "Legislation",
+      "title": "Financial Services and Markets Bill, which abolishes the PSR, passes Commons second reading",
+      "summary": "The Financial Services and Markets Bill [HL], which abolishes the Payment Systems Regulator and transfers its functions to the FCA, was read a second time in the House of Commons on 10 November 2026 and moves to Committee stage.",
+      "what_changed": [
+        "Functions moving to the FCA include the APP fraud reimbursement requirement and the PSR's direction-making powers.",
+        "The Bill completed its Lords stages between May and September 2026 and had its Commons first reading on 15 September 2026.",
+        "No Commons Committee stage date had been announced at the time of this update."
+      ],
+      "who": "Payment system operators and participants, PSPs and banks subject to APP fraud reimbursement; the FCA and PSR.",
+      "dates": "Commons second reading 10 November 2026; Committee stage date not yet announced.",
+      "tracker": "uk-payments-reform",
+      "links": [
+        {
+          "label": "Regulation Tomorrow — FSM Bill second reading in the Commons",
+          "url": "https://www.regulationtomorrow.com/2026/11/financial-services-and-markets-bill-second-reading-in-commons/",
+          "quality": "secondary"
+        },
+        {
+          "label": "UK Parliament — Financial Services and Markets Bill stages",
+          "url": "https://bills.parliament.uk/bills/4129/stages",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-fca-opres-good-poor-practice",
+      "region": "uk",
+      "date": "2026-11-11",
+      "added": "2026-11-16",
+      "authority": "FCA",
+      "type": "Good and poor practice",
+      "title": "FCA sets out good and poor practice on demonstrating operational resilience",
+      "summary": "The FCA published observations from its review of firms' 2025–26 operational resilience self-assessments, focusing on evidence of what firms can do now in severe but plausible disruption. The FCA states these are observations, not new requirements.",
+      "what_changed": [
+        "Self-assessments should reflect current capability rather than planned remediation or future investment.",
+        "The FCA expects end-to-end mapping of important business services, including group, shared and third-party dependencies.",
+        "Scenario testing should cover severe cyber disruption, third-party failure, data integrity and loss of key staff; boards should evidence challenge and compliance should be reviewed at least annually.",
+        "Next self-assessments should state residual risk and key assumptions and address issues left open from earlier FCA feedback."
+      ],
+      "who": "Firms in scope of SYSC 15A, including banks, insurers and in-scope payment and e-money institutions.",
+      "dates": "Published 11 November 2026; relevant to firms' next self-assessment cycle.",
+      "links": [
+        {
+          "label": "FCA — Operational resilience: demonstrating resilience in practice",
+          "url": "https://www.fca.org.uk/publications/good-and-poor-practice/operational-resilience-demonstrating-resilience-practice",
+          "quality": "primary"
+        },
+        {
+          "label": "Regulation Tomorrow — FCA operational resilience good and poor practice",
+          "url": "https://www.regulationtomorrow.com/2026/11/operational-resilience-demonstrating-resilience-in-practice/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-uk-russia-sanctions-oil-producers",
+      "region": "uk",
+      "date": "2026-11-12",
+      "added": "2026-11-16",
+      "authority": "UK Government (FCDO) / OFSI",
+      "type": "Sanctions designations",
+      "title": "UK designates Slavneft, SIBUR, SUEK and Vostok Oil under the Russia regime",
+      "summary": "A Russia sanctions notice of 12 November 2026 added 20 designations (nine entities and 11 ships) and varied one entry, including Russian oil, petrochemical and coal producers and UAE-registered traders.",
+      "what_changed": [
+        "Entities designated: PJSC Slavneft, PJSC SIBUR Holding, JSC Nipigazpererabotka, SUEK, Kuzbassrazrezugol, LLC Vostok Oil, Forteza Trading DMCC, Patera FZCO and Novus Energy DMCC.",
+        "The entities are subject to an asset freeze, trust services ban, director disqualification and transport sanctions; 11 oil and LNG tankers and a floating storage unit face shipping sanctions.",
+        "The entry for ALTRUM GROUP FZCO was varied. The notice itself does not refer to a wind-down general licence."
+      ],
+      "who": "Banks, payment firms, insurers and others with exposure to Russian energy, commodity trading or shipping counterparties; sanctions screening teams.",
+      "dates": "In effect from 12 November 2026.",
+      "links": [
+        {
+          "label": "GOV.UK — Financial sanctions notice: Russia, 12 November 2026 (PDF)",
+          "url": "https://assets.publishing.service.gov.uk/media/6af5ad18cc0dbfec767a509f/Sanctions_Notice__Russia__12_November_2026.pdf",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-boe-project-meridian-fx-apac",
+      "region": "uk",
+      "date": "2026-11-13",
+      "added": "2026-11-16",
+      "authority": "Bank of England (with MAS and Bank of Thailand)",
+      "type": "Experiment report",
+      "title": "Bank of England publishes Project Meridian FX APAC results and plans a live synchronisation interface in 2028",
+      "summary": "The Bank of England, the Monetary Authority of Singapore and the Bank of Thailand published reports on testing synchronised payment-versus-payment FX settlement and multilateral net settlement across RTGS and DLT systems. The Bank says it plans to launch a live synchronisation interface in 2028.",
+      "what_changed": [
+        "A prototype synchronisation operator built by Partior linked transfers across systems so that they settle together or not at all.",
+        "The authorities report that synchronised settlement worked across systems using different technologies and that netting can make liquidity use more efficient; legal, regulatory and oversight issues were also examined.",
+        "The Bank links its planned 2028 live synchronisation interface to the joint BoE/FCA Future of Tokenisation work. The project itself is exploratory, not a live service."
+      ],
+      "who": "Wholesale FX and RTGS participants, DLT and tokenisation platform operators.",
+      "dates": "Published 13 November 2026; live synchronisation interface targeted for 2028.",
+      "links": [
+        {
+          "label": "Bank of England — joint media release with MAS and Bank of Thailand",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+          "quality": "primary"
+        },
+        {
+          "label": "Bank of England — Project Meridian FX APAC policy report",
+          "url": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-policy-report",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-us-tprm-guidance-comment-extension",
+      "region": "us",
+      "date": "2026-11-13",
+      "added": "2026-11-16",
+      "authority": "OCC / Federal Reserve / FDIC / NCUA",
+      "type": "Comment period extension",
+      "title": "Banking agencies extend comment period on proposed third-party risk management guidance to 16 December",
+      "summary": "The OCC, Federal Reserve Board, FDIC and NCUA extended the comment period on their proposed interagency guidance on managing risks from third-party relationships by one month, to 16 December 2026.",
+      "what_changed": [
+        "The comment deadline moves from 16 November 2026 to 16 December 2026.",
+        "The Fed separately moved its proposed third-party risk management guide for Fed-supervised community banks to the same deadline.",
+        "The proposal was published in the Federal Register in September 2026 (FR doc 2026-18859)."
+      ],
+      "who": "Banks and credit unions and their fintech, core-processing and other third-party providers.",
+      "dates": "Comments now due 16 December 2026.",
+      "links": [
+        {
+          "label": "OCC — News Release 2026-100: agencies extend comment period",
+          "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-ia-2026-100.html",
+          "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-fsb-cross-border-payments-progress-2026",
+      "region": "global",
+      "date": "2026-11-16",
+      "added": "2026-11-16",
+      "authority": "FSB",
+      "type": "Report to the G20",
+      "title": "FSB publishes 2026 consolidated progress report on the G20 cross-border payments roadmap",
+      "summary": "The FSB's annual report to the G20 states that the international policy work under the roadmap is largely complete, but that improvements for end users in cost, speed, access and transparency remain gradual and uneven.",
+      "what_changed": [
+        "Combines progress on the priority themes with KPI monitoring; 2026 KPI data on retail cost, speed, transparency and access were published alongside it.",
+        "Covers implementation challenges in payment system interoperability and extension, legal, regulatory and supervisory frameworks, and cross-border data exchange and message standards.",
+        "The FSB calls for more action by individual jurisdictions and regions and continued public–private work, following the implementation phase it launched in March 2026. The 2027 target date is unchanged."
+      ],
+      "who": "Payment system operators, banks and non-bank PSPs offering cross-border payments; national authorities.",
+      "dates": "Published 16 November 2026; G20 targets fall due in 2027.",
+      "links": [
+        {
+          "label": "FSB — G20 Roadmap for Enhancing Cross-border Payments: Consolidated progress report for 2026",
+          "url": "https://www.fsb.org/2026/11/g20-roadmap-for-enhancing-cross-border-payments-consolidated-progress-report-for-2026/",
+          "quality": "primary"
+        }
+      ]
     }
   ],
   "upcoming": [
@@ -2719,10 +2934,9 @@
       "tracker": "uk-crypto"
     },
     {
-      "date": "2027-02-28",
-      "approx": true,
+      "date": "2027-02-22",
       "region": "global",
-      "title": "FATF February 2027 plenary: Vietnam and Myanmar to be revisited",
+      "title": "FATF February 2027 plenary (22–26 Feb): Vietnam and Myanmar to be revisited",
       "tracker": "fatf"
     },
     {
@@ -2762,6 +2976,36 @@
       "region": "eu",
       "title": "Digital euro: Irish Presidency target for political agreement",
       "tracker": "digital-euro"
+    },
+    {
+      "date": "2026-11-18",
+      "region": "global",
+      "title": "Basel Committee meeting (update on cryptoasset standard review expected by year-end)",
+      "tracker": "bcbs-crypto"
+    },
+    {
+      "date": "2026-11-27",
+      "region": "eu",
+      "title": "Nominations close for the European Tokenisation Standards Group",
+      "tracker": null
+    },
+    {
+      "date": "2026-12-10",
+      "region": "us",
+      "title": "FinCEN section 9714 special measure on MEXC Global takes effect",
+      "tracker": null
+    },
+    {
+      "date": "2026-12-16",
+      "region": "us",
+      "title": "Comments due on proposed interagency third-party risk management guidance",
+      "tracker": null
+    },
+    {
+      "date": "2027-06-21",
+      "region": "global",
+      "title": "FATF June 2027 plenary (21–25 Jun)",
+      "tracker": "fatf"
     }
   ]
 }
