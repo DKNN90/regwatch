@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T06:55:41Z",
-  "next_update": "2026-11-19",
-  "coverage_note": "Covers publications up to 16 November 2026. Updates run every Monday and Thursday.",
+  "generated_at": "2026-11-19T06:50:14Z",
+  "next_update": "2026-11-23",
+  "coverage_note": "Covers publications up to 19 November 2026. Updates run every Monday and Thursday.",
   "regions": [
     {
       "id": "eu",
@@ -35,21 +35,21 @@
       "name": "European Commission / Council / Parliament",
       "region": "eu",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "eba",
       "name": "European Banking Authority (EBA)",
       "region": "eu",
       "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "esma",
       "name": "European Securities and Markets Authority (ESMA)",
       "region": "eu",
       "url": "https://www.esma.europa.eu/press-news/esma-news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "amla",
@@ -63,14 +63,14 @@
       "name": "European Central Bank (ECB)",
       "region": "eu",
       "url": "https://www.ecb.europa.eu/press/pr/html/index.en.html",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "hmt",
       "name": "HM Treasury",
       "region": "uk",
       "url": "https://www.gov.uk/government/organisations/hm-treasury",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fca",
@@ -84,14 +84,14 @@
       "name": "Bank of England / PRA",
       "region": "uk",
       "url": "https://www.bankofengland.co.uk/news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "psr",
       "name": "Payment Systems Regulator (PSR)",
       "region": "uk",
       "url": "https://www.psr.org.uk/news-and-updates/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "congress",
@@ -105,70 +105,70 @@
       "name": "US Treasury / OFAC",
       "region": "us",
       "url": "https://home.treasury.gov/news/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fincen",
       "name": "FinCEN",
       "region": "us",
       "url": "https://www.fincen.gov/news-room",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "occ",
       "name": "OCC",
       "region": "us",
       "url": "https://www.occ.gov/news-events/newsroom/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fed",
       "name": "Federal Reserve Board",
       "region": "us",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fdic",
       "name": "FDIC",
       "region": "us",
       "url": "https://www.fdic.gov/news/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "sec",
       "name": "SEC",
       "region": "us",
       "url": "https://www.sec.gov/newsroom/press-releases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "cftc",
       "name": "CFTC",
       "region": "us",
       "url": "https://www.cftc.gov/PressRoom/PressReleases",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fatf",
       "name": "Financial Action Task Force (FATF)",
       "region": "global",
       "url": "https://www.fatf-gafi.org/en/publications.html",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "fsb",
       "name": "Financial Stability Board (FSB)",
       "region": "global",
       "url": "https://www.fsb.org/press/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "bis",
       "name": "Bank for International Settlements (BIS)",
       "region": "global",
       "url": "https://www.bis.org/press/index.htm",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "bcbs",
@@ -182,7 +182,7 @@
       "name": "Wolfsberg Group",
       "region": "global",
       "url": "https://wolfsberg-group.org/news",
-      "status": "checked"
+      "status": "unreachable"
     }
   ],
   "trackers": [
@@ -592,7 +592,7 @@
         {
           "date": "2026-11-18",
           "label": "GC26/7 and CP26/36 consultations close",
-          "done": false
+          "done": true
         },
         {
           "date": "2027-01",
@@ -638,7 +638,7 @@
           "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-19"
     },
     {
       "id": "uk-systemic-stablecoins",
@@ -2837,6 +2837,32 @@
           "label": "FSB — G20 Roadmap for Enhancing Cross-border Payments: Consolidated progress report for 2026",
           "url": "https://www.fsb.org/2026/11/g20-roadmap-for-enhancing-cross-border-payments-consolidated-progress-report-for-2026/",
           "quality": "primary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-ofac-hezbollah-charity-gold-network",
+      "region": "us",
+      "date": "2026-11-18",
+      "added": "2026-11-19",
+      "authority": "US Treasury / OFAC",
+      "type": "Sanctions designations",
+      "title": "OFAC designates Hezbollah-linked charity, money changer and gold-trading network",
+      "summary": "OFAC designated three Lebanon-based individuals and three entities, including a Lebanese charity and a money changer's gold-trading companies in Lebanon and Turkey, for channelling funds to Hezbollah.",
+      "what_changed": [
+        "Designees include the Ta'awanu Association, a southern Lebanon relief charity, and its founder; Treasury states the charity diverted donor funds to Hezbollah.",
+        "Money changer Hassan Khechen and his brother Ibrahim Khechen are designated; Treasury states they moved substantial funds from the IRGC-Quds Force to Lebanon for Hezbollah through gold and cash smuggling.",
+        "Entities include Gold Global Company and the Turkey-based Sankari Gold Kuyumculuk Ticaret Limited Sirketi, both described as controlled by Hassan Khechen.",
+        "Details are taken from Reuters' report; the Treasury press release could not be read on this run, so the legal authority and full identifiers are not confirmed here."
+      ],
+      "who": "US persons and financial institutions screening customers and payments, particularly money service businesses, precious-metals dealers and banks with Lebanon or Turkey exposure; charities and NPO-facing institutions.",
+      "dates": "Announced 18 November 2026; effective immediately.",
+      "tracker": null,
+      "links": [
+        {
+          "label": "Reuters via Al-Monitor — US sanctions Hezbollah-linked charity in push against Iran's proxies (18 Nov 2026)",
+          "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-push-against-irans-proxies-treasury-says",
+          "quality": "secondary"
         }
       ]
     }
